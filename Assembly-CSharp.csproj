@@ -55,7 +55,10 @@
      <Compile Include="Assets\DragonTerrorBringer\Scripts\CameraControl.cs" />
      <Compile Include="Assets\DragonTerrorBringer\Scripts\MaterialChange.cs" />
      <Compile Include="Assets\DragonTerrorBringer\Scripts\playerControl.cs" />
+     <Compile Include="Assets\Helper.cs" />
      <Compile Include="Assets\menu\GameMenu.cs" />
+     <Compile Include="Assets\SaveManager.cs" />
+     <Compile Include="Assets\SaveState.cs" />
      <Compile Include="Assets\shooting\bullet_movement.cs" />
      <Compile Include="Assets\shooting\create_bullet.cs" />
      <Compile Include="Assets\shooting\damage.cs" />

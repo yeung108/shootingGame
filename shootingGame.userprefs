@@ -2,10 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DragonControl.cs">
     <Files>
-      <File FileName="Assets/DragonControl.cs" Line="75" Column="19" />
+      <File FileName="Assets/DragonControl.cs" Line="40" Column="107" />
       <File FileName="Assets/shooting/bullet_movement.cs" Line="18" Column="5" />
       <File FileName="Assets/shooting/damage.cs" Line="11" Column="23" />
-      <File FileName="Assets/DragonTerrorBringer/Scripts/playerControl.cs" Line="61" Column="25" />
+      <File FileName="Assets/SaveManager.cs" Line="12" Column="19" />
+      <File FileName="Assets/shooting/tapDetection.cs" Line="14" Column="17" />
+      <File FileName="Assets/menu/GameMenu.cs" Line="12" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

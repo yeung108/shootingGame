@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DragonControl.cs">
+    <Files>
+      <File FileName="Assets/DragonControl.cs" Line="75" Column="19" />
+      <File FileName="Assets/shooting/bullet_movement.cs" Line="18" Column="5" />
+      <File FileName="Assets/shooting/damage.cs" Line="11" Column="23" />
+      <File FileName="Assets/DragonTerrorBringer/Scripts/playerControl.cs" Line="61" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

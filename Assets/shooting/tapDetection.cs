@@ -17,6 +17,7 @@ public class tapDetection : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		TapSelected ();
+		checkIfPlayerDie ();
 	}
 
 	void TapSelected() {
@@ -40,6 +41,12 @@ public class tapDetection : MonoBehaviour {
 		RaycastHit hit;
 		if (Physics.Raycast (cam.transform.position, cam.transform.forward, out hit, range)) {
 			Debug.Log (hit.transform.name);
+		}
+	}
+
+	void checkIfPlayerDie(){
+		if (SaveManager.Instance.state.health <= 0) {
+			Initiate.Fade ("gameover", Color.black, 1f);
 		}
 	}
 }

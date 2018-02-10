@@ -1,13 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DragonControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SaveState.cs">
     <Files>
-      <File FileName="Assets/DragonControl.cs" Line="40" Column="107" />
-      <File FileName="Assets/shooting/bullet_movement.cs" Line="18" Column="5" />
-      <File FileName="Assets/shooting/damage.cs" Line="11" Column="23" />
-      <File FileName="Assets/SaveManager.cs" Line="12" Column="19" />
-      <File FileName="Assets/shooting/tapDetection.cs" Line="14" Column="17" />
-      <File FileName="Assets/menu/GameMenu.cs" Line="12" Column="31" />
+      <File FileName="Assets/SaveManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/SaveState.cs" Line="2" Column="26" />
+      <File FileName="Assets/menu/GameMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/DragonControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/shooting/bullet_movement.cs" Line="1" Column="1" />
+      <File FileName="Assets/shooting/damage.cs" Line="1" Column="1" />
+      <File FileName="Assets/shooting/tapDetection.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

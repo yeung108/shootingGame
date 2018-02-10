@@ -17,7 +17,6 @@ public class DragonControl : MonoBehaviour {
 	private float speed = .01f;
 	private int dragonLife = 10;
 	private float attackRange = 6.0f;
-	//private int health = 1000;
 
 	IEnumerator DestroyDragon(float time)
 	{
@@ -54,9 +53,8 @@ public class DragonControl : MonoBehaviour {
 		} else if (Vector3.Distance (transform.position, targetPosition) <= attackRange) { //attack
 			if (!playercontrol.anim.GetCurrentAnimatorStateInfo (0).IsName ("Flame Attack")) {// check if anim finished
 				playercontrol.FlameAttack ();
-				//health--;
-				//healthTextObject.GetComponent<TextMeshProUGUI> ().text = "Health: " + health;
-				SaveManager.Instance.state.health--;
+				if (SaveManager.Instance.state.health > 0)
+					SaveManager.Instance.state.health--;
 				healthTextObject.GetComponent<TextMeshProUGUI> ().text = "Health: " + SaveManager.Instance.state.health;
 				SaveManager.Instance.Save ();
 			}

@@ -151,6 +151,9 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>/Users/ccyeung/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
+ <Reference Include="Editor.ReorderableList">
+ <HintPath>/Users/ccyeung/shootingGame/Assets/Fungus/Thirdparty/Reorderable List Field/Editor/Editor.ReorderableList.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

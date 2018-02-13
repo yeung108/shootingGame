@@ -51,3 +51,4 @@
 /Users/ccyeung/shootingGame/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.xml
 /Users/ccyeung/shootingGame/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll
 /Users/ccyeung/shootingGame/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll.mdb
+/Users/ccyeung/shootingGame/Temp/bin/Debug/Editor.ReorderableList.dll

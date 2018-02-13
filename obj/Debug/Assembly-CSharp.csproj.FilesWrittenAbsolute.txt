@@ -53,3 +53,4 @@
 /Users/ccyeung/shootingGame/Temp/bin/Debug/TextMeshPro-2017.3-1.0.56-Runtime.dll
 /Users/ccyeung/shootingGame/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
 /Users/ccyeung/shootingGame/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/ccyeung/shootingGame/Temp/bin/Debug/Editor.ReorderableList.dll

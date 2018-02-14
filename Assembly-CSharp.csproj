@@ -592,7 +592,9 @@
      <Compile Include="Assets\shooting\create_bullet.cs" />
      <Compile Include="Assets\shooting\damage.cs" />
      <Compile Include="Assets\shooting\damage_received.cs" />
+     <Compile Include="Assets\shooting\machete_movement.cs" />
      <Compile Include="Assets\shooting\menu.cs" />
+     <Compile Include="Assets\shooting\SwipeDetector.cs" />
      <Compile Include="Assets\shooting\tapDetection.cs" />
      <Compile Include="Assets\shooting\weapon_switching.cs" />
      <Compile Include="Assets\Simple Scene Fade Load System\Scripts\Fader.cs" />
@@ -762,6 +764,9 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="Editor.ReorderableList">
+ <HintPath>/Users/ccyeung/shootingGame/Assets/Fungus/Thirdparty/Reorderable List Field/Editor/Editor.ReorderableList.dll</HintPath>
+ </Reference>
  <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
  <HintPath>/Users/ccyeung/shootingGame/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
  </Reference>
@@ -788,9 +793,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>/Users/ccyeung/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Editor.ReorderableList">
- <HintPath>/Users/ccyeung/shootingGame/Assets/Fungus/Thirdparty/Reorderable List Field/Editor/Editor.ReorderableList.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

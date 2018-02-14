@@ -5,7 +5,6 @@ using Vuforia;
 
 public class bullet_movement : MonoBehaviour {
 	private float speed = 15f;
-	public GameObject target;
 
 	// Use this for initialization
 	void Start () {
@@ -14,10 +13,12 @@ public class bullet_movement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Translate (Vector3.forward * Time.deltaTime * speed);
-		//Debug.Log ("Bullet Position: "+transform.position);
-		if (Vector3.Distance (transform.position, target.transform.position) >= 10.0f) {
-			Destroy(gameObject);
-		};
+		if (gameObject != null) {
+			transform.Translate (Vector3.forward * Time.deltaTime * speed);
+			//Debug.Log ("Bullet Position: "+transform.position);
+			if (Vector3.Distance (transform.position, GameObject.Find("target").transform.position) >= 10.0f) {
+				Destroy(gameObject);
+			};
+		}
 	}
 }

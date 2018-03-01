@@ -11,8 +11,9 @@ AR & Puzzle Game
 * [Modern Weapons](http://devassets.com/assets/modern-weapons/) - weapons
 * [Survival Weapons](http://devassets.com/assets/survival-weapons/) - weapons
 * [Simple Scene Fade Load System](https://assetstore.unity.com/packages/tools/gui/simple-fade-scene-transition-system-81753) - scene loading
-* [TextMesh Pro](https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126) - UI Text
+* [TextMesh Pro](https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126) - UI Text, wooden box texture
 * [Fantasy Wooden GUI : Free](https://assetstore.unity.com/packages/2d/gui/fantasy-wooden-gui-free-103811) - menu button image
 * [Sound Effects](https://freesound.org/)
 * [Fungus](https://assetstore.unity.com/packages/templates/systems/fungus-34184) - Narratives, SayDialog, FlowChart, Character
 * [Fire & Spell Effects](https://assetstore.unity.com/packages/vfx/particles/fire-explosions/fire-spell-effects-36825) - Fireblot with animation
+* [Old Brown Parchment Paper Texture](http://www.myfreetextures.com/free-old-brown-vintage-parchment-paper-texture/) - paper texture

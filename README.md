@@ -18,3 +18,4 @@ AR & Puzzle Game
 * [Fire & Spell Effects](https://assetstore.unity.com/packages/vfx/particles/fire-explosions/fire-spell-effects-36825) - Fireblot with animation
 * [Old Brown Parchment Paper Texture](http://www.myfreetextures.com/free-old-brown-vintage-parchment-paper-texture/) - paper texture
 * [Standard Asset - Prototyping](Unity Standard Assets) - house prototyping as pentagon
+* [loop page flip animation](https://www.turbosquid.com/3d-models/free-max-model-morph-loop-page-flip/446100) - 08(page from book model) as paper model

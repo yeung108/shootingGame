@@ -578,7 +578,9 @@
      <Compile Include="Assets\FungusExamples\FungusLua\Bindings\CustomScript.cs" />
      <Compile Include="Assets\FungusExamples\MonoBehEvents\SpriteColorChangeFromFungusMouseEvent.cs" />
      <Compile Include="Assets\Helper.cs" />
+     <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\menu\GameMenu.cs" />
+     <Compile Include="Assets\OldRadio\Okean\CamRotat.cs" />
      <Compile Include="Assets\PyroParticles\Prefab\Script\FireBaseScript.cs" />
      <Compile Include="Assets\PyroParticles\Prefab\Script\FireCollisionForwardScript.cs" />
      <Compile Include="Assets\PyroParticles\Prefab\Script\FireConstantBaseScript.cs" />
@@ -591,6 +593,7 @@
      <Compile Include="Assets\Script\Answer.cs" />
      <Compile Include="Assets\Script\ASCII.cs" />
      <Compile Include="Assets\Script\clickScript.cs" />
+     <Compile Include="Assets\Script\ROT13.cs" />
      <Compile Include="Assets\shooting\bullet_movement.cs" />
      <Compile Include="Assets\shooting\create_bullet.cs" />
      <Compile Include="Assets\shooting\damage.cs" />
@@ -689,6 +692,7 @@
      <None Include="Assets\FungusExamples\FungusTown\Readme.txt" />
      <None Include="Assets\Fungus\Thirdparty\Reorderable List Field\LICENSE.txt" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\OldRadio\Okean\ReadMe.txt" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
      <None Include="Assets\Fungus\Textures\Attribution.txt" />
      <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />

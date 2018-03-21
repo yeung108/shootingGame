@@ -1,12 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MainMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/clickScriptMetal.cs">
     <Files>
+      <File FileName="Assets/Script/clickScript.cs" Line="16" Column="26" />
       <File FileName="Assets/Script/ROT13.cs" Line="12" Column="22" />
-      <File FileName="Assets/MainMenu.cs" Line="15" Column="7" />
-      <File FileName="Assets/Script/clickScript.cs" Line="1" Column="1" />
       <File FileName="Assets/shooting/tapDetection.cs" Line="1" Column="1" />
       <File FileName="Assets/Script/ASCII.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/clickScriptMetal.cs" Line="12" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

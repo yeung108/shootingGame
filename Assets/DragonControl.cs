@@ -17,6 +17,7 @@ public class DragonControl : MonoBehaviour {
 	private float speed = .01f;
 	private int dragonLife = 10;
 	private float attackRange = 6.0f;
+	private int noOfDragon = 1;
 
 	IEnumerator DestroyDragon(float time)
 	{

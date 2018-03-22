@@ -10,6 +10,7 @@ Assets/badEnd.unity
 SceneListEnd?
 b497cd6cb84c2199c071bc81e08e7906 Assembly-CSharp.dll:Fungus.Stop
 75cd0c6c744b9733ef29aa6c59ece2b1 Assembly-CSharp.dll:TMPro.Examples.VertexZoom
+4855c923cfe298d9f17e14001ceb0d04 Assembly-CSharp.dll:.ROT13
 c906602d9b43cc5e075f80e1d8ae7c79 Assembly-CSharp.dll:TMPro.Examples.Benchmark01_UGUI
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SfxrCacheSurrogate
 4d856d9b5bbca35c058a752c72efb65e Assembly-CSharp.dll:Fungus.PunchRotation
@@ -30,6 +31,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.clickScriptS3
 959d0fff5e452c20f305e0bfe3cf69de Assembly-CSharp.dll:Fungus.Mouse
 b20f7948f03b6dc491cc69efe57bc8c1 Assembly-CSharp.dll:Fungus.CharacterControllerCollide
 3d4501935c82b1ad586cc7811d1f8ed2 Assembly-CSharp.dll:Fungus.Collision2D
@@ -240,7 +242,6 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SfxrAudioPlayer
-7f6f3c31cc18fba8f7937ae06ec33f4d Assembly-CSharp.dll:.DemoScript
 8d1d14221dcf23fdeb17cc197bd54a93 Assembly-CSharp.dll:Fungus.GameObjectVariable
 fd0f43a3b3758d704d6ddaee31a24a8b Assembly-CSharp.dll:Fungus.EventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.DragRigidbody
@@ -399,6 +400,7 @@ a8ed45ab553b07236625df6cc6ac449c TextMeshPro-2017.3-1.0.56-Editor.dll:TMPro.Edit
 05524b8f659e7bfe5756d1335fec24ba TextMeshPro-2017.3-1.0.56-Editor.dll:TMPro.EditorUtilities.TMPro_TextContainerEditor
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.TMP_DigitValidator
 5e6d45a991f8b0a32a316d0a266ae47b Assembly-CSharp.dll:Fungus.Inv
+a58cc8c46c9e73faa378ad29eb260035 Assembly-CSharp.dll:.clickScriptMetal
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenu
@@ -426,7 +428,6 @@ d42c0964705688f14135e5d833a587b1 Assembly-CSharp.dll:Fungus.OpenURL
 5093524ccdcfa505089337cf23998886 Assembly-CSharp.dll:Fungus.Parallax
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.FireLight
 c1e5e4e5ad9eb07bed8851b99038c6fa Assembly-CSharp.dll:Fungus.KeyPressed
-32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
 76015de5fcb247eeb8df66c001d5a22d Assembly-CSharp.dll:TMPro.Examples.TMP_FrameRateCounter
 301a30eeaee996dbf8f54342ee92cb21 Assembly-CSharp.dll:Fungus.SavePoint
 b8a18df1051085b5f90566253ca49ebf Assembly-CSharp.dll:Fungus.ReloadScene
@@ -658,4 +659,3 @@ d609a5008e2be1b3e59e436b51a12459 Assembly-CSharp.dll:.ASCII
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 fd160bb264b468cfb1957ebeb7c17190 Assembly-CSharp.dll:Fungus.MoveLean
-4855c923cfe298d9f17e14001ceb0d04 Assembly-CSharp.dll:.ROT13

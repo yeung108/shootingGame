@@ -118,10 +118,7 @@ public class playerControl : MonoBehaviour
 	public void Die ()
 	{
 		anim.SetTrigger(die);
-		SaveManager.Instance.New ();
 		Initiate.Fade ("stage1", Color.black, 1f);
-		//hi
-		//bjhfghgvkgcjf
 	}
 
 	public void Idle02 ()

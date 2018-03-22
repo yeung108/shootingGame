@@ -49,7 +49,7 @@ fae445a7a3d2d0d634ed75030dcbad77 Assembly-CSharp.dll:Fungus.SetActive
 b3146e8846ffa9d4e3283260574e4f63 Assembly-CSharp.dll:Fungus.AddForce2D
 b2315532eb28f551712d7f4fde13346e Assembly-CSharp.dll:Fungus.SetAudioPitch
 e60e821c4ad60cfe53a2f2267c8e2649 Assembly-CSharp.dll:Fungus.SetCollider
-29e1b43fc5a8b9b9fcb9c628317dd80c Assembly-CSharp.dll:.tapDetection
+f4921a751e639b74aabe1568970823df Assembly-CSharp.dll:.tapDetection
 d5ca41dbd1fe75a7719857047b7ae969 Assembly-CSharp.dll:Fungus.ScaleFrom
 797b66f3a9857b3e9846213e26ccb1b0 Assembly-CSharp.dll:Fungus.InvokeMethod
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker

@@ -71,7 +71,7 @@ MonoBehaviour:
   m_MinSize: {x: 887, y: 492}
   m_MaxSize: {x: 16012, y: 14042}
   vertical: 0
-  controlID: 148
+  controlID: 77
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 492}
   m_MaxSize: {x: 12010, y: 14042}
   vertical: 1
-  controlID: 28
+  controlID: 78
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 221}
   m_MaxSize: {x: 12010, y: 4021}
   vertical: 0
-  controlID: 29
+  controlID: 79
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,8 +343,25 @@ MonoBehaviour:
     height: 436
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
-    m_KeySerializationHelper: []
-    m_ValueSerializationHelper: []
+    m_KeySerializationHelper:
+    - {fileID: 110784426, guid: 08f6634017a8e784a8807f193b72bec9, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
   m_AnimatorController: {fileID: 0}
   m_BreadCrumbs: []
@@ -456,18 +473,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/DragonTerrorBringer/Prefabs
+    - Assets/shooting
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/DragonTerrorBringer/Prefabs
+  - Assets/shooting
   m_LastFoldersGridSize: 57
   m_LastProjectPath: /Users/ccyeung/shootingGame
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 1a3e0000
-    m_LastClickedID: 15898
+    scrollPos: {x: 0, y: 311}
+    m_SelectedIDs: a4390000
+    m_LastClickedID: 14756
     m_ExpandedIDs: 000000004c2f0000cc2f00005c310000723200008e360000d03600002c370000c4370000dc3700009a380000c0380000043b00004c3c00005c3c0000743c0000b03c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -523,7 +540,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300007e35000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -616,7 +633,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 9efbffff00000000
+    m_ExpandedIDs: 627bfeff627cfeff0881feff1a81feff0c82feff7482feff8282feff9282feffa882feff9ebafeffb4bbfeff5ec0feff74c0feff6ac1feffd6c1feffe8c1fefffcc1feff16c2feffd0f6feffd2f7feff78fcfeff8afcfeff7cfdfeffe4fdfefff2fdfeff02fefeff18fefeff7a1fffff7c20ffff2e25ffff4c25ffff4a26ffffbe26ffffd826fffff426ffff1627ffff804effff564ffffffc53ffff0e54ffff0055ffff6855ffff7655ffff8655ffff9c55ffffbe8fffffbe90ffff7095ffff8e95ffff8c96ffff0097ffff1a97ffff3697ffff5897ffff9efbffff000000008e42000002150100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -667,14 +684,14 @@ MonoBehaviour:
     height: 436
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 4705.698192954063
+  lastFramingTime: 1167.9113039970398
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -22765.443, y: -1659.0477, z: -357.35733}
+    m_Target: {x: 0.004700005, y: 0.00030000508, z: 0.45464844}
     speed: 2
-    m_Value: {x: -22765.443, y: -1659.0477, z: -357.35733}
+    m_Value: {x: 0.004700005, y: 0.00030000508, z: 0.45464844}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -702,9 +719,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 37234.414
+    m_Target: 3.2691739
     speed: 2
-    m_Value: 37234.414
+    m_Value: 3.2691739
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -760,8 +777,8 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
@@ -773,7 +790,7 @@ MonoBehaviour:
       y: 17
       width: 428
       height: 419
-    m_Scale: {x: 2, y: 2}
+    m_Scale: {x: 1, y: 1}
     m_Translation: {x: 214, y: 209.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -781,10 +798,10 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -107
-      y: -104.75
-      width: 214
-      height: 209.5
+      x: -214
+      y: -209.5
+      width: 428
+      height: 419
     m_MinimalGUI: 1
   m_defaultScale: 2
   m_TargetTexture: {fileID: 0}

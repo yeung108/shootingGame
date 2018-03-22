@@ -118,7 +118,6 @@ public class playerControl : MonoBehaviour
 	public void Die ()
 	{
 		anim.SetTrigger(die);
-		Initiate.Fade ("stage1", Color.black, 1f);
 	}
 
 	public void Idle02 ()

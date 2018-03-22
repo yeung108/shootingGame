@@ -17,13 +17,13 @@ public class DragonControl : MonoBehaviour {
 	private float speed = .01f;
 	private int dragonLife = 10;
 	private float attackRange = 6.0f;
-	private int noOfDragon = 1;
 
 	IEnumerator DestroyDragon(float time)
 	{
 		yield return new WaitForSeconds(time);
 		explosion.PositionAt(transform.position);
 		explosion.SetActive (true);
+		//Instantiate (explosion, transform.position, transform.rotation);
 		explosion.GetComponent<ParticleSystem> ().Play();
 		gameObject.SetActive (false);
 		yield return new WaitForSeconds(explosion.GetComponent<ParticleSystem> ().main.duration);
@@ -78,7 +78,7 @@ public class DragonControl : MonoBehaviour {
 		if (dragonLife > 0) {
 			dragonLife--;
 			hitnumber++;
-			hittedTextObject.GetComponent<TextMeshProUGUI> ().text = "Hitted: " + hitnumber;
+			//hittedTextObject.GetComponent<TextMeshProUGUI> ().text = "Hitted: " + hitnumber;
 			Debug.Log ("Collide transform.position: "+sth.transform.position);
 		}
 	}

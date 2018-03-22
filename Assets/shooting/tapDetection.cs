@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Vuforia;
+using TMPro;
 
 public class tapDetection : MonoBehaviour {
 	public GameObject bullet;
 	public GameObject cam;
 	public GameObject knife;
+	public GameObject hittedTextObject;
 	public float damage = 10f;
 	public float range = 10f;
 	public float knifeRange = 10f;
@@ -20,6 +22,7 @@ public class tapDetection : MonoBehaviour {
 	void Update () {
 		TapSelected ();
 		checkIfPlayerDie ();
+		checkIfAllDragonDie ();
 	}
 
 	void TapSelected() {
@@ -51,6 +54,15 @@ public class tapDetection : MonoBehaviour {
 	void checkIfPlayerDie(){
 		if (SaveManager.Instance.state.health <= 0) {
 			Initiate.Fade ("gameover", Color.black, 1f);
+		}
+	}
+
+	void checkIfAllDragonDie(){
+		var noOfDragonAlive = GameObject.FindGameObjectsWithTag ("dragon");
+		if (noOfDragonAlive.Length == 0) {
+			Initiate.Fade ("stage1", Color.black, 1f);
+		} else {
+			hittedTextObject.GetComponent<TextMeshProUGUI> ().text = "Enemies: " + noOfDragonAlive.Length;
 		}
 	}
 

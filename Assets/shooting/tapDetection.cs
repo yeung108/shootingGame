@@ -13,6 +13,7 @@ public class tapDetection : MonoBehaviour {
 	public float damage = 10f;
 	public float range = 10f;
 	public float knifeRange = 10f;
+	public int goldAwarded = 1000;
 
 	// Use this for initialization
 	void Start () {
@@ -60,7 +61,7 @@ public class tapDetection : MonoBehaviour {
 	void checkIfAllDragonDie(){
 		var noOfDragonAlive = GameObject.FindGameObjectsWithTag ("dragon");
 		if (noOfDragonAlive.Length == 0) {
-			Initiate.Fade ("stage1", Color.black, 1f);
+			goToNextStage ();
 		} else {
 			hittedTextObject.GetComponent<TextMeshProUGUI> ().text = "Enemies: " + noOfDragonAlive.Length;
 		}
@@ -76,5 +77,13 @@ public class tapDetection : MonoBehaviour {
 		if (Physics.Raycast (cam.transform.position, cam.transform.forward, out hit, knifeRange)) {
 			Debug.Log (hit.transform.name);
 		}
+	}
+
+	void goToNextStage(){
+		SaveManager.Instance.state.encounterDragon = false;
+		SaveManager.Instance.state.gold += goldAwarded;
+		SaveManager.Instance.Save ();
+		string sceneName = "stage" + SaveManager.Instance.state.currentStage;
+		Initiate.Fade (sceneName, Color.black, 1f);
 	}
 }

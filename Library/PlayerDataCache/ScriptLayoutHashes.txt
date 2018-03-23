@@ -49,7 +49,7 @@ fae445a7a3d2d0d634ed75030dcbad77 Assembly-CSharp.dll:Fungus.SetActive
 b3146e8846ffa9d4e3283260574e4f63 Assembly-CSharp.dll:Fungus.AddForce2D
 b2315532eb28f551712d7f4fde13346e Assembly-CSharp.dll:Fungus.SetAudioPitch
 e60e821c4ad60cfe53a2f2267c8e2649 Assembly-CSharp.dll:Fungus.SetCollider
-f4921a751e639b74aabe1568970823df Assembly-CSharp.dll:.tapDetection
+30bd5fd4855af4270f8960e2c6251dd3 Assembly-CSharp.dll:.tapDetection
 d5ca41dbd1fe75a7719857047b7ae969 Assembly-CSharp.dll:Fungus.ScaleFrom
 797b66f3a9857b3e9846213e26ccb1b0 Assembly-CSharp.dll:Fungus.InvokeMethod
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker
@@ -522,7 +522,7 @@ d2f4ed54c841602ee8aa52c9c6299495 Assembly-CSharp.dll:Fungus.SetAnimInteger
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 de4a94ad4aa2c891d3ef95628a0f2057 Assembly-CSharp.dll:Fungus.LuaEnvironment
 c9576c6a51e2e71bc5caab85a96801e8 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.SmokeParticles
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameMenu
+6877ae86e2f88a18e97d92ef49ab203b Assembly-CSharp.dll:.GameMenu
 4d856d9b5bbca35c058a752c72efb65e Assembly-CSharp.dll:Fungus.PunchPosition
 db3b233e35a88802fed1717d19c3d9ec Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FollowTarget
 ee89b1b5b5f65cb74289075021dc8085 Assembly-CSharp.dll:Fungus.FloatVariable

@@ -35,7 +35,7 @@ public class DragonControl : MonoBehaviour {
 	void Start () {
 		setTargetPosition ();
 		float sign = Random.Range (0, 2) * 2 - 1; // positive or negative
-		Vector3 position = new Vector3(sign * Random.Range(10.0f, 15.0f), Random.Range(-1.0f, 1.0f), sign * Random.Range(10.0f, 15.0f));
+		Vector3 position = new Vector3(sign * Random.Range(10.0f, 50.0f), Random.Range(-2.0f, 2.0f), sign * Random.Range(10.0f, 50.0f));
 		transform.position = position;
 		healthTextObject.GetComponent<TextMeshProUGUI> ().text = "Health: " + SaveManager.Instance.state.health;
 		//Debug.Log ("Dragon Position: "+position);
@@ -44,6 +44,7 @@ public class DragonControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		distanceTextObject.GetComponent<TextMeshProUGUI> ().text = "Distance: " + Vector3.Distance(transform.position, targetPosition);
+		//distanceTextObject.GetComponent<TextMeshProUGUI> ().text = "Gold: " + SaveManager.Instance.state.gold;
 		if (dragonLife <= 0) {
 			if (!playercontrol.anim.GetCurrentAnimatorStateInfo (0).IsName ("Die")) {
 				playercontrol.Die ();

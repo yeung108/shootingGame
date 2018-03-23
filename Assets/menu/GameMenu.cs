@@ -2,8 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameMenu : MonoBehaviour {
+
+	public GameObject goldTextObject;
+	public GameObject stageTextObject;
 
 	public void PlayGame(){
 		if (PlayerPrefs.HasKey ("save")) {
@@ -16,10 +20,21 @@ public class GameMenu : MonoBehaviour {
 
 	public void LoadGame(){
 		SaveManager.Instance.Load ();
-		Initiate.Fade ("shooting", Color.black, 1f);
+		if (SaveManager.Instance.state.encounterDragon == true) {
+			Initiate.Fade ("shooting", Color.black, 1f);
+		} else {
+			string sceneName = "stage" + SaveManager.Instance.state.currentStage;
+			Initiate.Fade (sceneName, Color.black, 1f);
+		} 
 	}
 
 	public void QuitGame(){
 		Application.Quit ();
+	}
+
+	public void displayProgress(){
+		SaveManager.Instance.Load ();
+		goldTextObject.GetComponent<TextMeshProUGUI> ().text = "Gold: " + SaveManager.Instance.state.gold;
+		stageTextObject.GetComponent<TextMeshProUGUI> ().text = "Stage: " + SaveManager.Instance.state.currentStage;
 	}
 }

@@ -10,6 +10,8 @@ public class tapDetection : MonoBehaviour {
 	public GameObject cam;
 	public GameObject knife;
 	public GameObject hittedTextObject;
+	public GameObject weaponTextObject;
+	public GameObject goldTextObject;
 	public float damage = 10f;
 	public float range = 10f;
 	public float knifeRange = 10f;
@@ -21,6 +23,7 @@ public class tapDetection : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		goldTextObject.GetComponent<TextMeshProUGUI> ().text = "$" + SaveManager.Instance.state.gold;
 		TapSelected ();
 		checkIfPlayerDie ();
 		checkIfAllDragonDie ();
@@ -45,11 +48,16 @@ public class tapDetection : MonoBehaviour {
 	}
 
 	void Shoot(){
-		Destroy(Instantiate (bullet, cam.transform.position, cam.transform.rotation), range);
-		RaycastHit hit;
-		if (Physics.Raycast (cam.transform.position, cam.transform.forward, out hit, range)) {
-			Debug.Log (hit.transform.name);
+		if (SaveManager.Instance.state.bullet > 0) {
+			SaveManager.Instance.state.bullet -= 1;
+			SaveManager.Instance.Save ();
+			Destroy(Instantiate (bullet, cam.transform.position, cam.transform.rotation), range);
+			RaycastHit hit;
+			if (Physics.Raycast (cam.transform.position, cam.transform.forward, out hit, range)) {
+				Debug.Log (hit.transform.name);
+			}
 		}
+		weaponTextObject.GetComponent<TextMeshProUGUI> ().text = "x" + SaveManager.Instance.state.bullet;
 	}
 
 	void checkIfPlayerDie(){
@@ -68,15 +76,20 @@ public class tapDetection : MonoBehaviour {
 	}
 
 	void Slash(){
-		knife.SetActive (true);
-		knife.transform.localScale = new Vector3 (0.003f,0.003f,0.003f);
-		knife.transform.eulerAngles += new Vector3 (0, 5f, 0);
-		Destroy(Instantiate (knife, cam.transform.position, cam.transform.rotation), knifeRange);
-		Debug.Log ("Knife Position: "+transform.position);
-		RaycastHit hit;
-		if (Physics.Raycast (cam.transform.position, cam.transform.forward, out hit, knifeRange)) {
-			Debug.Log (hit.transform.name);
+		if (SaveManager.Instance.state.knife > 0) {
+			SaveManager.Instance.state.knife -= 1;
+			SaveManager.Instance.Save ();
+			knife.SetActive (true);
+			knife.transform.localScale = new Vector3 (0.003f,0.003f,0.003f);
+			knife.transform.eulerAngles += new Vector3 (0, 5f, 0);
+			Destroy(Instantiate (knife, cam.transform.position, cam.transform.rotation), knifeRange);
+			Debug.Log ("Knife Position: "+transform.position);
+			RaycastHit hit;
+			if (Physics.Raycast (cam.transform.position, cam.transform.forward, out hit, knifeRange)) {
+				Debug.Log (hit.transform.name);
+			}
 		}
+		weaponTextObject.GetComponent<TextMeshProUGUI> ().text = "x" + SaveManager.Instance.state.knife;
 	}
 
 	void goToNextStage(){

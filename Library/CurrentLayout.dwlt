@@ -68,10 +68,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 733
-  m_MinSize: {x: 887, y: 492}
-  m_MaxSize: {x: 16012, y: 14042}
+  m_MinSize: {x: 885, y: 492}
+  m_MaxSize: {x: 16010, y: 14042}
   vertical: 0
-  controlID: 149
+  controlID: 151
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -116,8 +116,8 @@ MonoBehaviour:
     y: 0
     width: 202
     height: 460
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -233,10 +233,10 @@ MonoBehaviour:
     y: 0
     width: 1038
     height: 733
-  m_MinSize: {x: 610, y: 492}
-  m_MaxSize: {x: 12010, y: 14042}
+  m_MinSize: {x: 608, y: 492}
+  m_MaxSize: {x: 12008, y: 14042}
   vertical: 1
-  controlID: 59
+  controlID: 98
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -258,10 +258,10 @@ MonoBehaviour:
     y: 0
     width: 1038
     height: 460
-  m_MinSize: {x: 610, y: 221}
-  m_MaxSize: {x: 12010, y: 4021}
+  m_MinSize: {x: 608, y: 221}
+  m_MaxSize: {x: 12008, y: 4021}
   vertical: 0
-  controlID: 60
+  controlID: 74
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -473,19 +473,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Survival Weapons/Models/Machete
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Survival Weapons/Models/Machete
+  - Assets
   m_LastFoldersGridSize: 57
   m_LastProjectPath: /Users/ccyeung/shootingGame
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 281}
-    m_SelectedIDs: ec300000
-    m_LastClickedID: 12524
-    m_ExpandedIDs: 000000004c2f0000d22f0000623100009436000032370000ca370000e2370000a0380000c63800000c3b0000483c0000643c00007c3c0000b83c000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 522f0000
+    m_LastClickedID: 12114
+    m_ExpandedIDs: 00000000522f0000d82f0000683100009a36000038370000d0370000e8370000a6380000cc380000123b00004e3c00006a3c0000823c0000be3c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -513,7 +513,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004c2f0000d22f0000623100007832000094360000d636000032370000ca370000e2370000a0380000c63800000c3b0000543c0000643c00007c3c0000b83c0000
+    m_ExpandedIDs: 00000000522f0000d82f0000683100009a36000038370000d0370000e8370000a6380000cc380000123b00004e3c00006a3c0000823c0000be3c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -565,7 +565,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 64}
     m_GridSize: 57
   m_DirectoriesAreaWidth: 168
 --- !u!114 &18
@@ -631,28 +631,28 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7c590100
-    m_LastClickedID: 88444
-    m_ExpandedIDs: 48d6f5ff22d7f5ffc8dbf5ffdadbf5ffccdcf5ff28ddf5ff36ddf5ffeae2f5fffce2f5ff9809f6ff1a11f6ff3812f6ffe216f6fff816f6ffee17f6ff4e18f6ff6018f6ff7418f6ff9018f6ff8622f6ffea8ef6ff182cf7ff9c35f7ff7e36f7ff243bf7ff363bf7ff283cf7ff843cf7ff923cf7ff4642f7ff5642f7ff1448f8fff648f8ffa04df8ffb64df8ffac4ef8ff0c4ff8ff1e4ff8ffd654f8ffea54f8ff6ab8f9ff30c3f9ff08d0f9ffdcd0f9ff82d5f9ff94d5f9ff86d6f9ff9cd6f9ffaad6f9ff5adcf9ff70dcf9ffde9ffbfff6a0fbff9ea5fbffb2a5fbffa6a6fbffbea6fbffcea6fbff80acfbff98acfbfff4c5fbffa4ddfbff1679fdff0a80fdff06a8fdffc8fcfdff265afeffe45cfeffc874feffa68cfeff048efeff628ffeffc090feffc290feff7ac2feff92e5feff96e6feff3cebfeff4eebfeff40ecfeffa8ecfeffb6ecfeffc6ecfeffdcecfeffc85fffffcc60ffff7265ffff8465ffff7666ffffde66ffffec66fffffc66ffff1267ffff9efbffff000000001c8100003e8200003e9b000070b000008eb00000aeb0000032ce000010cf0000baf90000f2f90000f8f900004c0f0100940f01009a0f0100022201003422010072220100164201005e42010064420100f4580100b6590100c4590100ca590100
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 447ff8ff5c80f8ff0685f8ff1c85f8ff1286f8ff7286f8ff8486f8ff9c86f8ffb886f8ff3a8ff8ffd0a4f8ffe8a5f8ff92aaf8ffa8aaf8ff9eabf8fffeabf8ff10acf8ffccb1f8ffe2b1f8ff38c2f8ff5e4efaffe45dfaffe065fafff866faff9e6bfaffb06bfaffa26cfafffe6cfaff0c6dfaffc272faffd472faffd88afaff4890faff5464fbffa06ffbff4641fdffc8b9fdff98fbffff000000005e420000c04200000e4300001e4d00002c4d0000424d00006e4d00009a6700004c680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Main Camera
-      m_OriginalName: Main Camera
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 88360
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
   m_ExpandedScenes:
-  - menu
+  - shooting
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -684,14 +684,14 @@ MonoBehaviour:
     height: 439
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 9015.948824048042
+  lastFramingTime: 4745.910384893417
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 1, z: -10}
+    m_Target: {x: 237.5, y: 422, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 1, z: -10}
+    m_Value: {x: 237.5, y: 422, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -719,9 +719,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 0.99999994}
   m_Size:
-    m_Target: 1826.1223
+    m_Target: 642.41766
     speed: 2
-    m_Value: 1826.1223
+    m_Value: 642.41766
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -803,7 +803,7 @@ MonoBehaviour:
       width: 428
       height: 422
     m_MinimalGUI: 1
-  m_defaultScale: 1
+  m_defaultScale: 2
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 856, y: 878}

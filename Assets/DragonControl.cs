@@ -13,10 +13,11 @@ public class DragonControl : MonoBehaviour {
 	public GameObject target;
 	public GameObject explosion;
 	private Vector3 targetPosition;
-	private int hitnumber = 0;
 	private float speed = .01f;
 	private int dragonLife = 10;
 	private float attackRange = 6.0f;
+	private int bulletPower = 2;
+	private int knifePower = 1;
 
 	IEnumerator DestroyDragon(float time)
 	{
@@ -44,7 +45,6 @@ public class DragonControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		distanceTextObject.GetComponent<TextMeshProUGUI> ().text = "Distance: " + Vector3.Distance(transform.position, targetPosition);
-		//distanceTextObject.GetComponent<TextMeshProUGUI> ().text = "Gold: " + SaveManager.Instance.state.gold;
 		if (dragonLife <= 0) {
 			if (!playercontrol.anim.GetCurrentAnimatorStateInfo (0).IsName ("Die")) {
 				playercontrol.Die ();
@@ -77,9 +77,11 @@ public class DragonControl : MonoBehaviour {
 		Debug.Log ("dragon hitted in trigger enter");
 		playercontrol.GetHit ();
 		if (dragonLife > 0) {
-			dragonLife--;
-			hitnumber++;
-			//hittedTextObject.GetComponent<TextMeshProUGUI> ().text = "Hitted: " + hitnumber;
+			if (sth.tag == "bullet") {
+				dragonLife -= bulletPower;
+			} else {
+				dragonLife -= knifePower;
+			}
 			Debug.Log ("Collide transform.position: "+sth.transform.position);
 		}
 	}

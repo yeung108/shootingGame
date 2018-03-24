@@ -3,4 +3,6 @@
 	public int currentStage = 1;
 	public bool encounterDragon = true;
 	public int gold = 1000;
+	public int bullet = 50;
+	public int knife = 50;
 }

@@ -8,6 +8,9 @@ public class GameMenu : MonoBehaviour {
 
 	public GameObject goldTextObject;
 	public GameObject stageTextObject;
+	public GameObject shopGoldTextObject;
+	public int bulletPrice = 100;
+	public int knifePrice = 50;
 
 	public void PlayGame(){
 		if (PlayerPrefs.HasKey ("save")) {
@@ -36,5 +39,28 @@ public class GameMenu : MonoBehaviour {
 		SaveManager.Instance.Load ();
 		goldTextObject.GetComponent<TextMeshProUGUI> ().text = "Gold: " + SaveManager.Instance.state.gold;
 		stageTextObject.GetComponent<TextMeshProUGUI> ().text = "Stage: " + SaveManager.Instance.state.currentStage;
+	}
+
+	public void displayShop(){
+		SaveManager.Instance.Load ();
+		shopGoldTextObject.GetComponent<TextMeshProUGUI> ().text = "Gold: " + SaveManager.Instance.state.gold;
+	}
+
+	public void buyBullet(){
+		SaveManager.Instance.Load ();
+		if (SaveManager.Instance.state.gold >= bulletPrice) {
+			SaveManager.Instance.state.gold -= bulletPrice;
+			SaveManager.Instance.Save ();
+		}
+		goldTextObject.GetComponent<TextMeshProUGUI> ().text = "Gold: " + SaveManager.Instance.state.gold;
+	}
+
+	public void buyKnife(){
+		SaveManager.Instance.Load ();
+		if (SaveManager.Instance.state.gold >= knifePrice) {
+			SaveManager.Instance.state.gold -= knifePrice;
+			SaveManager.Instance.Save ();
+		}
+		goldTextObject.GetComponent<TextMeshProUGUI> ().text = "Gold: " + SaveManager.Instance.state.gold;
 	}
 }

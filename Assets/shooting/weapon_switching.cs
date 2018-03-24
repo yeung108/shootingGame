@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Vuforia;
+using TMPro;
 
 public class weapon_switching : MonoBehaviour {
 
 	public int selectedWeapon = 0;
-	//public Transform weaponholder;
+	public GameObject weaponTextObject;
 
 	// Use this for initialization
 	void Start () {
@@ -67,10 +68,19 @@ public class weapon_switching : MonoBehaviour {
 			if (i == selectedWeapon) {
 				weapon.gameObject.SetActive (true);
 				Debug.Log ("Here is weapon number" + selectedWeapon);
+				displayNoOfBullet (weapon.name);
 			}
 			else
 				weapon.gameObject.SetActive (false);
 			i++;
+		}
+	}
+
+	void displayNoOfBullet(string weaponName){
+		if (weaponName == "AK-47") {
+			weaponTextObject.GetComponent<TextMeshProUGUI> ().text = "x" + SaveManager.Instance.state.bullet;
+		} else if (weaponName == "Machete") {
+			weaponTextObject.GetComponent<TextMeshProUGUI> ().text = "x" + SaveManager.Instance.state.knife;
 		}
 	}
 }

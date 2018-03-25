@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Vuforia;
 using TMPro;
 
@@ -14,10 +15,12 @@ public class DragonControl : MonoBehaviour {
 	public GameObject explosion;
 	private Vector3 targetPosition;
 	private float speed = .01f;
-	private int dragonLife = 10;
+	private float dragonLife = 10f;
+	private float maxDragonLife = 10f;
 	private float attackRange = 6.0f;
 	private int bulletPower = 2;
 	private int knifePower = 1;
+	public UnityEngine.UI.Image healthbar;
 
 	IEnumerator DestroyDragon(float time)
 	{
@@ -83,6 +86,7 @@ public class DragonControl : MonoBehaviour {
 				dragonLife -= knifePower;
 			}
 			Debug.Log ("Collide transform.position: "+sth.transform.position);
+			healthbar.fillAmount = dragonLife / maxDragonLife;
 		}
 	}
 

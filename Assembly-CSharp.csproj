@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DeployStageOnce.cs" />
      <Compile Include="Assets\DragonControl.cs" />
      <Compile Include="Assets\DragonTerrorBringer\Scripts\CameraControl.cs" />
      <Compile Include="Assets\DragonTerrorBringer\Scripts\MaterialChange.cs" />

@@ -227,7 +227,7 @@ d672cee35261f9935d5ce974c746730f TextMeshPro-2017.3-1.0.56-Runtime.dll:TMPro.TMP
 826f13cf6484008d643df5913f2b304c Assembly-CSharp.dll:Fungus.SetSaveProfile
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
-fbc085188602ff2f8468228b090ca527 Assembly-CSharp.dll:.DragonControl
+f592bf103da57c274ee57471fbff398e Assembly-CSharp.dll:.DragonControl
 dc331af9157ad5cae49bb898fea934c8 Assembly-CSharp.dll:Fungus.AddTorque2D
 1928d671d0ffe9a2f71d39075e9861db Assembly-CSharp.dll:Fungus.Fullscreen
 abb921b4ef874b7b5b817e54014be6c9 Assembly-CSharp.dll:Fungus.ElseIf
@@ -334,6 +334,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 77970364171c06631f60a4d72cc2036d Assembly-CSharp.dll:Fungus.SpawnObject
 020550babdb991365f61c5bffe1f4f52 Assembly-CSharp.dll:TMPro.Examples.Benchmark03
 4df86f437a61b08c14fd0adff88ddf71 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ActivateTrigger
+93a2c9254154ebcafb8f8ac293b9e80f Assembly-CSharp.dll:.DeployStageOnce
 1dd5afbe72b78672a791f893fdff3e5f Assembly-CSharp.dll:DigitalRuby.PyroParticles.FireBaseScript
 4ccfe2713237d1f5edde6f2a8bc7c9a7 Assembly-CSharp.dll:Fungus.LoadVariable
 f6318a2d62902bac71c55f69e828b50b Assembly-CSharp.dll:Fungus.SetAnimFloat

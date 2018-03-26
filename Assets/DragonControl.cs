@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Vuforia;
 using TMPro;
+using DigitalRuby.PyroParticles;
 
 public class DragonControl : MonoBehaviour {
 
@@ -13,6 +14,7 @@ public class DragonControl : MonoBehaviour {
 	public playerControl playercontrol;
 	public GameObject target;
 	public GameObject explosion;
+	public GameObject flamethrower;
 	private Vector3 targetPosition;
 	private float speed = .01f;
 	private float dragonLife = 10f;
@@ -21,6 +23,7 @@ public class DragonControl : MonoBehaviour {
 	private int bulletPower = 2;
 	private int knifePower = 1;
 	public UnityEngine.UI.Image healthbar;
+	private float attackTime;
 
 	IEnumerator DestroyDragon(float time)
 	{
@@ -35,6 +38,19 @@ public class DragonControl : MonoBehaviour {
 		Destroy(gameObject);
 	}
 
+	IEnumerator fireAttack(float waitingtime)
+	{
+		yield return new WaitForSeconds(waitingtime);
+		float delayForXPosition = playercontrol.anim.GetCurrentAnimatorStateInfo (0).normalizedTime * 100 - 30;
+		Vector3 flamePosition = Vector3.zero;
+		flamePosition = new Vector3 (transform.position.x, transform.position.y + 1.4f, transform.position.z);
+		Debug.Log(transform.position);
+		Debug.Log (flamePosition);
+		Debug.Log ("Time: " + Time.deltaTime);
+		Destroy(Instantiate (flamethrower, flamePosition, transform.rotation), 2f);
+		flamethrower.GetComponent<FireBaseScript>().transform.LookAt (targetPosition);
+	}
+
 	// Use this for initialization
 	void Start () {
 		setTargetPosition ();
@@ -42,7 +58,6 @@ public class DragonControl : MonoBehaviour {
 		Vector3 position = new Vector3(sign * Random.Range(10.0f, 50.0f), Random.Range(-2.0f, 2.0f), sign * Random.Range(10.0f, 50.0f));
 		transform.position = position;
 		healthTextObject.GetComponent<TextMeshProUGUI> ().text = "Health: " + SaveManager.Instance.state.health;
-		//Debug.Log ("Dragon Position: "+position);
 	}
 
 	// Update is called once per frame
@@ -58,6 +73,8 @@ public class DragonControl : MonoBehaviour {
 		} else if (Vector3.Distance (transform.position, targetPosition) <= attackRange) { //attack
 			if (!playercontrol.anim.GetCurrentAnimatorStateInfo (0).IsName ("Flame Attack")) {// check if anim finished
 				playercontrol.FlameAttack ();
+				StartCoroutine (fireAttack (0.9f));
+
 				if (SaveManager.Instance.state.health > 0)
 					SaveManager.Instance.state.health--;
 				healthTextObject.GetComponent<TextMeshProUGUI> ().text = "Health: " + SaveManager.Instance.state.health;

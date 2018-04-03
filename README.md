@@ -21,3 +21,4 @@ AR & Puzzle Game
 * [loop page flip animation](https://www.turbosquid.com/3d-models/free-max-model-morph-loop-page-flip/446100) - 08(page from book model) as paper model
 * [Old radio "Ocean"](https://assetstore.unity.com/packages/3d/props/interior/old-radio-72923) - act as music box
 * [Yughues Free Metal Materials](https://assetstore.unity.com/packages/2d/textures-materials/metals/yughues-free-metal-materials-12949) - metal plane's asset
+* [2 Gears](https://www.turbosquid.com/3d-models/free-3ds-mode-2-gears/643650) - gear asset

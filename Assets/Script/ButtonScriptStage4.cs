@@ -6,6 +6,8 @@ public class ButtonScriptStage4 : MonoBehaviour {
 	public Material black;
 	public Material red;
 	public TextMesh threed;
+	public GameObject uiobject;
+	public GameObject uiobject2;
 
 	Renderer rend1;
 	Renderer rend2;
@@ -44,6 +46,8 @@ public class ButtonScriptStage4 : MonoBehaviour {
 		} else {
 			threed.text = "Unlocked";
 			threed.color = Color.green;
+			uiobject.SetActive (true);
+			uiobject2.SetActive (true);
 		}
 	}
 

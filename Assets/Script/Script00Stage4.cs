@@ -13,6 +13,8 @@ public class Script00Stage4 : MonoBehaviour {
 	public GameObject a7;
 	public GameObject a8;
 	public GameObject a9;
+	public GameObject uiobject;
+	public GameObject uiobject2;
 
 	private string answer = "";
 	private int next = 1;
@@ -29,6 +31,8 @@ public class Script00Stage4 : MonoBehaviour {
 		} else {
 			threed.text = "Unlocked";
 			threed.color = Color.green;
+			uiobject.SetActive (true);
+			uiobject2.SetActive (true);
 		}
 	}
 

@@ -8,6 +8,8 @@ public class Script01Stage4 : MonoBehaviour {
 	public GameObject down;
 	public GameObject left;
 	public GameObject right;
+	public GameObject uiobject;
+	public GameObject uiobject2;
 
 	private string answer = "";
 	private char[] array = {'r','r','d','l','d','d','r'};
@@ -29,6 +31,8 @@ public class Script01Stage4 : MonoBehaviour {
 		} else {
 			threed.text = "Unlocked";
 			threed.color = Color.green;
+			uiobject.SetActive (true);
+			uiobject2.SetActive (true);
 		}
 	}
 

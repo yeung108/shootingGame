@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Script10Stage4 : MonoBehaviour {
 	public TextMesh threed;
+	public GameObject uiobject;
 
 	private string answer = "";
 	private string[] array = {"3", "1", "4"};
@@ -24,6 +25,7 @@ public class Script10Stage4 : MonoBehaviour {
 		} else {
 			threed.text = "Unlocked";
 			threed.color = Color.green;
+			uiobject.SetActive (true);
 		}
 	}
 

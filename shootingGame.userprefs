@@ -1,16 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/ChangeStage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/clickScriptForMusicBox.cs">
     <Files>
-      <File FileName="Assets/shooting/menu.cs" Line="11" Column="3" />
-      <File FileName="Assets/DragonControl.cs" Line="70" Column="5" />
-      <File FileName="Assets/SaveManager.cs" Line="8" Column="25" />
-      <File FileName="Assets/shooting/tapDetection.cs" Line="1" Column="1" />
-      <File FileName="Assets/shooting/weapon_switching.cs" Line="1" Column="1" />
-      <File FileName="Assets/playerControl.cs" Line="32" Column="17" />
-      <File FileName="Assets/Script/ChangeStage.cs" Line="17" Column="25" />
-      <File FileName="Assets/Script/MainMenu.cs" Line="6" Column="1" />
-      <File FileName="Assets/SaveState.cs" Line="4" Column="37" />
+      <File FileName="Assets/Script/ItemScript.cs" Line="17" Column="24" />
+      <File FileName="Assets/Script/ItemScriptStage3.cs" Line="65" Column="2" />
+      <File FileName="Assets/Script/Script00Stage4.cs" Line="36" Column="4" />
+      <File FileName="Assets/Script/Script10Stage4.cs" Line="28" Column="30" />
+      <File FileName="Assets/Script/ItemScriptStage2.cs" Line="13" Column="3" />
+      <File FileName="Assets/Script/clickScriptForMusicBox.cs" Line="23" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

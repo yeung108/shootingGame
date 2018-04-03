@@ -595,8 +595,12 @@
      <Compile Include="Assets\Script\ButtonScriptStage4.cs" />
      <Compile Include="Assets\Script\ChangeStage.cs" />
      <Compile Include="Assets\Script\clickScript.cs" />
+     <Compile Include="Assets\Script\clickScriptForMusicBox.cs" />
      <Compile Include="Assets\Script\clickScriptMetal.cs" />
      <Compile Include="Assets\Script\clickScriptS3.cs" />
+     <Compile Include="Assets\Script\ItemScript.cs" />
+     <Compile Include="Assets\Script\ItemScriptStage2.cs" />
+     <Compile Include="Assets\Script\ItemScriptStage3.cs" />
      <Compile Include="Assets\Script\MainMenu.cs" />
      <Compile Include="Assets\Script\ROT13.cs" />
      <Compile Include="Assets\Script\Script00Stage4.cs" />

@@ -10,6 +10,8 @@ public class Script01Stage4 : MonoBehaviour {
 	public GameObject right;
 	public GameObject uiobject;
 	public GameObject uiobject2;
+	public AudioSource correct;
+	public AudioSource wrong;
 
 	private string answer = "";
 	private char[] array = {'r','r','d','l','d','d','r'};
@@ -42,39 +44,61 @@ public class Script01Stage4 : MonoBehaviour {
 			Ray raycast = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
 			RaycastHit raycastHit;
 			if (Physics.Raycast (raycast, out raycastHit)) {
-				if (raycastHit.collider.name == "^") {
+				if (raycastHit.collider.name == "up") {
 					time = 0;
 					answer = "";
+					next = array [time];
 					Debug.Log ("Wrong!");
-				} else if (raycastHit.collider.name == "v") {
+					wrongAnswer ();
+				} else if (raycastHit.collider.name == "down") {
 					if (next == 'd') {
 						time++;
 						answer += "d";
+						next = array [time];
+						correctAnswer ();
 					} else {
 						time = 0;
 						answer = "";
+						next = array [time];
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
-				} else if (raycastHit.collider.name == "<") {
+				} else if (raycastHit.collider.name == "left") {
 					if (next == 'l') {
 						time++;
 						answer += "l";
+						next = array [time];
+						correctAnswer ();
 					} else {
 						time = 0;
 						answer = "";
+						next = array [time];
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
-				} else if (raycastHit.collider.name == ">") {
+				} else if (raycastHit.collider.name == "right") {
 					if (next == 'r') {
 						time++;
 						answer += "r";
+						next = array [time];
+						correctAnswer ();
 					} else {
 						time = 0;
 						answer = "";
+						next = array [time];
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				}
 			}
 		}
+	}
+
+	void correctAnswer(){
+		correct.Play ();
+	}
+
+	void wrongAnswer(){
+		wrong.Play ();
 	}
 }

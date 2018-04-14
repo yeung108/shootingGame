@@ -26,3 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/badEnd.unity
     guid: cfc6787aef955446b8858242a6fa9521
+  - enabled: 1
+    path: Assets/stage4.unity
+    guid: 1a92f4fe2ca90458cb7ea006c9238e4f
+  - enabled: 1
+    path: Assets/stage5.unity
+    guid: 8c6e97379188f435dabc428ba6d73374

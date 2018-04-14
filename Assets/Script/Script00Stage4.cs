@@ -15,6 +15,8 @@ public class Script00Stage4 : MonoBehaviour {
 	public GameObject a9;
 	public GameObject uiobject;
 	public GameObject uiobject2;
+	public AudioSource correct;
+	public AudioSource wrong;
 
 	private string answer = "";
 	private int next = 1;
@@ -46,85 +48,111 @@ public class Script00Stage4 : MonoBehaviour {
 					if (next == 1) {
 						answer += "1";
 						next++;
+						correctAnswer ();
 					} else {
 						next = 1;
 						answer = "";
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "a2") {
 					if (next == 2) {
 						answer += "2";
 						next++;
+						correctAnswer ();
 					} else {
 						next = 1;
 						answer = "";
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "a3") {
 					if (next == 3) {
 						answer += "3";
 						next++;
+						correctAnswer ();
 					} else {
 						next = 1;
 						answer = "";
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "a4") {
 					if (next == 4) {
 						answer += "4";
 						next++;
+						correctAnswer ();
 					} else {
 						next = 1;
 						answer = "";
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "a5") {
 					if (next == 5) {
 						answer += "5";
 						next++;
+						correctAnswer ();
 					} else {
 						next = 1;
 						answer = "";
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "a6") {
 					if (next == 6) {
 						answer += "6";
 						next++;
+						correctAnswer ();
 					} else {
 						next = 1;
 						answer = "";
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "a7") {
 					if (next == 7) {
 						answer += "7";
 						next++;
+						correctAnswer ();
 					} else {
 						next = 1;
 						answer = "";
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "a8") {
 					if (next == 8) {
 						answer += "8";
 						next++;
+						correctAnswer ();
 					} else {
 						next = 1;
 						answer = "";
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "a9") {
 					if (next == 9) {
 						answer += "9";
 						next++;
+						correctAnswer ();
 					} else {
 						next = 1;
 						answer = "";
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				}
 			}
 		}
+	}
+
+	void correctAnswer(){
+		correct.Play ();
+	}
+
+	void wrongAnswer(){
+		wrong.Play ();
 	}
 }

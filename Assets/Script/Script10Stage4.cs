@@ -10,6 +10,8 @@ public class Script10Stage4 : MonoBehaviour {
 	private string[] array = {"3", "1", "4"};
 	private int time = 0;
 	private string next = "";
+	public AudioSource correct;
+	public AudioSource wrong;
 
 	// Use this for initialization
 	void Start () {
@@ -39,85 +41,128 @@ public class Script10Stage4 : MonoBehaviour {
 					if (next == "1") {
 						answer += "1";
 						time++;
+						next = array [time];
+						correctAnswer ();
 					} else {
 						time = 0;
 						answer = "";
+						next = array [time];
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "2") {
 					if (next == "2") {
 						answer += "2";
 						time++;
+						next = array [time];
+						correctAnswer ();
 					} else {
 						time = 0;
 						answer = "";
+						next = array [time];
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "3") {
 					if (next == "3") {
 						answer += "3";
 						time++;
+						next = array [time];
+						correctAnswer ();
 					} else {
 						time = 0;
 						answer = "";
+						next = array [time];
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "4") {
 					if (next == "4") {
 						answer += "4";
 						time++;
+						next = array [time];
+						correctAnswer ();
 					} else {
 						time = 0;
 						answer = "";
+						next = array [time];
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "5") {
 					if (next == "5") {
 						answer += "5";
 						time++;
+						next = array [time];
+						correctAnswer ();
 					} else {
 						time = 0;
 						answer = "";
+						next = array [time];
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "6") {
 					if (next == "6") {
 						answer += "6";
 						time++;
+						next = array [time];
+						correctAnswer ();
 					} else {
 						time = 0;
 						answer = "";
+						next = array [time];
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "7") {
 					if (next == "7") {
 						answer += "7";
 						time++;
+						next = array [time];
+						correctAnswer ();
 					} else {
 						time = 0;
 						answer = "";
+						next = array [time];
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "8") {
 					if (next == "8") {
 						answer += "8";
 						time++;
+						next = array [time];
+						correctAnswer ();
 					} else {
 						time = 0;
 						answer = "";
+						next = array [time];
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				} else if (raycastHit.collider.name == "9") {
 					if (next == "9") {
 						answer += "9";
 						time++;
+						next = array [time];
+						correctAnswer ();
 					} else {
 						time = 0;
 						answer = "";
+						next = array [time];
 						Debug.Log ("Wrong!");
+						wrongAnswer ();
 					}
 				}
 			}
 		}
+	}
+	void correctAnswer(){
+		correct.Play ();
+	}
+
+	void wrongAnswer(){
+		wrong.Play ();
 	}
 }

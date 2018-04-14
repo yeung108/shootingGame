@@ -22,3 +22,5 @@ AR & Puzzle Game
 * [Old radio "Ocean"](https://assetstore.unity.com/packages/3d/props/interior/old-radio-72923) - act as music box
 * [Yughues Free Metal Materials](https://assetstore.unity.com/packages/2d/textures-materials/metals/yughues-free-metal-materials-12949) - metal plane's asset
 * [2 Gears](https://www.turbosquid.com/3d-models/free-3ds-mode-2-gears/643650) - gear asset
+* [Freesound - "Keyboard" by dersuperanton](https://freesound.org/people/dersuperanton/sounds/166691/) - sound effect played when a correct button is being pressed
+* [Freesound - "Wrong answer." by SgtPepperArc360](https://freesound.org/people/SgtPepperArc360/sounds/341732/) - sound effect played when a wrong button is being pressed

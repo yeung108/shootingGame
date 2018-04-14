@@ -17,8 +17,8 @@ public class clickScriptForMusicBox : MonoBehaviour {
 			RaycastHit raycastHit;
 			if (Physics.Raycast(raycast, out raycastHit))
 			{
-				if ((raycastHit.collider.name == "okean" )&& (SaveManager.Instance.state.gear)) {
-					Debug.Log ("okean clicked");
+				if ((raycastHit.collider.name == "MusicBox" ) && (SaveManager.Instance.state.gear)) {
+					Debug.Log ("MusicBox clicked");
 					playMusic();
 					gear.SetActive (false);
 				}
@@ -26,7 +26,7 @@ public class clickScriptForMusicBox : MonoBehaviour {
 		}
 	}
 
-	void playMusic(){
+	public void playMusic(){
 		morseCode.Play ();
 	}
 }

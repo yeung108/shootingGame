@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class ItemScript : MonoBehaviour {
 
+	public GameObject gear;
+
 	void Start (){
 		if (SaveManager.Instance.state.gear) {
-			GameObject.Find ("gear").SetActive (true);
+			gear.SetActive (true);
 		} else {
-			GameObject.Find ("gear").SetActive (false);
+			gear.SetActive (false);
 		}
 	}
 
 	public void getItem(){
 		GameObject.Find ("gear").SetActive(true);
 		SaveManager.Instance.state.gear = true;
+		SaveManager.Instance.Save ();
 	}
 }

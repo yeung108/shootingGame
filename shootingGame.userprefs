@@ -1,13 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/clickScriptForMusicBox.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/AnswerStage3.cs">
     <Files>
-      <File FileName="Assets/Script/ItemScript.cs" Line="17" Column="24" />
-      <File FileName="Assets/Script/ItemScriptStage3.cs" Line="65" Column="2" />
-      <File FileName="Assets/Script/Script00Stage4.cs" Line="36" Column="4" />
-      <File FileName="Assets/Script/Script10Stage4.cs" Line="28" Column="30" />
-      <File FileName="Assets/Script/ItemScriptStage2.cs" Line="13" Column="3" />
-      <File FileName="Assets/Script/clickScriptForMusicBox.cs" Line="23" Column="29" />
+      <File FileName="Assets/Script/clickScriptForMusicBox.cs" Line="17" Column="26" />
+      <File FileName="Assets/Script/ChangeStage.cs" Line="22" Column="47" />
+      <File FileName="Assets/Script/AnswerStage3.cs" Line="22" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

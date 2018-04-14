@@ -219,6 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5975b0e556dc34a96a9985f31bb7fc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gear: {fileID: 1238414807}
 --- !u!1 &20956024
 GameObject:
   m_ObjectHideFlags: 0
@@ -3454,6 +3455,22 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 048069fda18fe468e9d4f8a96fc98e88, type: 3}
   m_PrefabInternal: {fileID: 531746605}
+--- !u!1 &540168058 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
+  m_PrefabInternal: {fileID: 1720855785}
+--- !u!65 &540168059
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 540168058}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &584143542
 GameObject:
   m_ObjectHideFlags: 0
@@ -6097,14 +6114,10 @@ GameObject:
   - component: {fileID: 1223473285}
   - component: {fileID: 1223473284}
   - component: {fileID: 1223473283}
-  - component: {fileID: 1223473288}
-  - component: {fileID: 1223473287}
-  - component: {fileID: 1223473253}
   - component: {fileID: 1223473295}
   - component: {fileID: 1223473294}
   - component: {fileID: 1223473293}
   - component: {fileID: 1223473292}
-  - component: {fileID: 1223473280}
   - component: {fileID: 1223473303}
   - component: {fileID: 1223473302}
   - component: {fileID: 1223473301}
@@ -6120,6 +6133,11 @@ GameObject:
   - component: {fileID: 1223473291}
   - component: {fileID: 1223473289}
   - component: {fileID: 1223473290}
+  - component: {fileID: 1223473288}
+  - component: {fileID: 1223473287}
+  - component: {fileID: 1223473253}
+  - component: {fileID: 1223473280}
+  - component: {fileID: 1223473308}
   m_Layer: 0
   m_Name: 'Flowchart '
   m_TagString: Untagged
@@ -6135,25 +6153,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1223473252}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 30
+  itemId: 59
   indentLevel: 1
-  variable: {fileID: 1223473262}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
+  targetTextObject: {fileID: 1711595085}
+  text:
+    stringRef: {fileID: 1223473308}
     stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
 --- !u!114 &1223473254
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6433,13 +6443,13 @@ MonoBehaviour:
   commandList:
   - {fileID: 1223473261}
   - {fileID: 1223473264}
-  - {fileID: 1223473287}
+  - {fileID: 1223473288}
   - {fileID: 1223473256}
   - {fileID: 1223473255}
   - {fileID: 1223473269}
   - {fileID: 1223473280}
   - {fileID: 1223473259}
-  - {fileID: 1223473288}
+  - {fileID: 1223473287}
   - {fileID: 1223473258}
   - {fileID: 1223473257}
   - {fileID: 1223473260}
@@ -6571,22 +6581,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 10.662817, y: 226.27791}
+  scrollPos: {x: 153.78088, y: 348.96106}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 221
-  zoom: 0.64899564
+  zoom: 0.49699298
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1223473267}
+  selectedCommands:
+  - {fileID: 1223473253}
   variables:
   - {fileID: 1223473262}
   - {fileID: 1223473302}
+  - {fileID: 1223473308}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -6729,15 +6742,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1223473252}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d52ce2dfbc0b4dc4aa04334fc76695e, type: 3}
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 37
+  itemId: 60
   indentLevel: 1
-  flowchart: {fileID: 1223473273}
-  blockName:
-    stringRef: {fileID: 0}
-    stringVal: answering
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 943290544}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1223473281
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6846,7 +6862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 257.3818
+    x: 255.3697
     y: 217.48485
     width: 120
     height: 40
@@ -6868,25 +6884,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1223473252}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 29
+  itemId: 58
   indentLevel: 1
-  variable: {fileID: 1223473262}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
+  targetTextObject: {fileID: 1711595085}
+  text:
+    stringRef: {fileID: 1223473308}
     stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
 --- !u!114 &1223473288
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6895,25 +6903,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1223473252}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 28
+  itemId: 57
   indentLevel: 1
-  variable: {fileID: 1223473262}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
+  targetTextObject: {fileID: 1711595085}
+  text:
+    stringRef: {fileID: 1223473308}
     stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
 --- !u!114 &1223473289
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7335,6 +7335,20 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &1223473308
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1223473252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: empty
+  value: 
 --- !u!1001 &1230349826
 Prefab:
   m_ObjectHideFlags: 0
@@ -8483,7 +8497,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -8503,7 +8517,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1496196856}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: -0.012499999, z: 0}
+  m_LocalPosition: {x: 0, y: -0.012499999, z: -1.78}
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 1720855786}
@@ -9501,6 +9515,22 @@ Prefab:
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
+      propertyPath: m_Name
+      value: MusicBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
+      propertyPath: m_Name
+      value: MusicBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
+      propertyPath: m_Name
+      value: MusicBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
+      propertyPath: m_Name
+      value: MusicBox
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}

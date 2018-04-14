@@ -66,9 +66,23 @@ public class ButtonScriptStage4 : MonoBehaviour {
 						b2Red = !b2Red;
 						rend2.material = red;
 					}
+					if (b1Red) {
+						b1Red = !b1Red;
+						rend1.material = black;
+					} else {
+						b1Red = !b1Red;
+						rend1.material = red;
+					}
 
 				} else if (raycastHit.collider.name == "b2") {
 					Debug.Log ("b2 clicked");
+					if (b2Red) {
+						b2Red = !b2Red;
+						rend2.material = black;
+					} else {
+						b2Red = !b2Red;
+						rend2.material = red;
+					}
 					if (b3Red) {
 						b3Red = !b3Red;
 						rend3.material = black;
@@ -85,6 +99,13 @@ public class ButtonScriptStage4 : MonoBehaviour {
 					}
 				} else if (raycastHit.collider.name == "b3") {
 					Debug.Log ("b3 clicked");
+					if (b3Red) {
+						b3Red = !b3Red;
+						rend3.material = black;
+					} else {
+						b3Red = !b3Red;
+						rend3.material = red;
+					}
 					if (b2Red) {
 						b2Red = !b2Red;
 						rend2.material = black;
@@ -101,6 +122,13 @@ public class ButtonScriptStage4 : MonoBehaviour {
 					}
 				} else if (raycastHit.collider.name == "b4") {
 					Debug.Log ("b4 clicked");
+					if (b4Red) {
+						b4Red = !b4Red;
+						rend4.material = black;
+					} else {
+						b4Red = !b4Red;
+						rend4.material = red;
+					}
 					if (b3Red) {
 						b3Red = !b3Red;
 						rend4.material = black;
@@ -117,6 +145,13 @@ public class ButtonScriptStage4 : MonoBehaviour {
 					}
 				} else if (raycastHit.collider.name == "b5") {
 					Debug.Log ("b5 clicked");
+					if (b5Red) {
+						b5Red = !b5Red;
+						rend5.material = black;
+					} else {
+						b5Red = !b5Red;
+						rend5.material = red;
+					}
 					if (b4Red) {
 						b4Red = !b4Red;
 						rend4.material = black;

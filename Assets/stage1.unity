@@ -6180,7 +6180,7 @@ MonoBehaviour:
   m_Script: {fileID: 278115944}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: Drone
+  mTrackableName: Astronaut
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/VuforiaMars_Images.xml
@@ -8017,7 +8017,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DroneMaterial
+  m_Name: AstronautMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -8030,7 +8030,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3b3cf30ab7479fc45a6362fc4cb5e995, type: 3}
+        m_Texture: {fileID: 2800000, guid: 77fb44a366db5cb41b8c06649271f8e6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []

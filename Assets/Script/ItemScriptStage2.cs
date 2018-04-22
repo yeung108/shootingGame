@@ -13,4 +13,9 @@ public class ItemScriptStage2: MonoBehaviour {
 			gear.SetActive (false);
 		}
 	}
+
+	public void solveHidden(){
+		SaveManager.Instance.state.hiddenSolvedS2 = true;
+		SaveManager.Instance.Save ();
+	}
 }

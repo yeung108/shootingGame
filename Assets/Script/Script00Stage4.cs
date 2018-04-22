@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Script00Stage4 : MonoBehaviour {
+	public Material white;
+	public Material red;
 	public TextMesh threed;
 	public GameObject a1;
 	public GameObject a2;
@@ -18,13 +20,44 @@ public class Script00Stage4 : MonoBehaviour {
 	public AudioSource correct;
 	public AudioSource wrong;
 
+	Renderer rend1;
+	Renderer rend2;
+	Renderer rend3;
+	Renderer rend4;
+	Renderer rend5;
+	Renderer rend6;
+	Renderer rend7;
+	Renderer rend8;
+	Renderer rend9;
+
 	private string answer = "";
 	private int next = 1;
 
 	// Use this for initialization
 	void Start () {
 		answer = "";
+		rend1 = a1.GetComponent<Renderer> ();
+		rend2 = a2.GetComponent<Renderer> ();
+		rend3 = a3.GetComponent<Renderer> ();
+		rend4 = a4.GetComponent<Renderer> ();
+		rend5 = a5.GetComponent<Renderer> ();
+		rend6 = a6.GetComponent<Renderer> ();
+		rend7 = a7.GetComponent<Renderer> ();
+		rend8 = a8.GetComponent<Renderer> ();
+		rend9 = a9.GetComponent<Renderer> ();
+		rend1.material = white;
+		rend2.material = white;
+		rend3.material = white;
+		rend4.material = white;
+		rend5.material = white;
+		rend6.material = white;
+		rend7.material = white;
+		rend8.material = white;
+		rend9.material = white;
 	}
+
+
+
 	
 	// Update is called once per frame
 	void Update () {
@@ -49,6 +82,7 @@ public class Script00Stage4 : MonoBehaviour {
 						answer += "1";
 						next++;
 						correctAnswer ();
+						rend1.material = red;
 					} else {
 						next = 1;
 						answer = "";
@@ -60,6 +94,7 @@ public class Script00Stage4 : MonoBehaviour {
 						answer += "2";
 						next++;
 						correctAnswer ();
+						rend2.material = red;
 					} else {
 						next = 1;
 						answer = "";
@@ -71,6 +106,7 @@ public class Script00Stage4 : MonoBehaviour {
 						answer += "3";
 						next++;
 						correctAnswer ();
+						rend3.material = red;
 					} else {
 						next = 1;
 						answer = "";
@@ -82,6 +118,7 @@ public class Script00Stage4 : MonoBehaviour {
 						answer += "4";
 						next++;
 						correctAnswer ();
+						rend4.material = red;
 					} else {
 						next = 1;
 						answer = "";
@@ -93,6 +130,7 @@ public class Script00Stage4 : MonoBehaviour {
 						answer += "5";
 						next++;
 						correctAnswer ();
+						rend5.material = red;
 					} else {
 						next = 1;
 						answer = "";
@@ -104,6 +142,7 @@ public class Script00Stage4 : MonoBehaviour {
 						answer += "6";
 						next++;
 						correctAnswer ();
+						rend6.material = red;
 					} else {
 						next = 1;
 						answer = "";
@@ -115,6 +154,7 @@ public class Script00Stage4 : MonoBehaviour {
 						answer += "7";
 						next++;
 						correctAnswer ();
+						rend7.material = red;
 					} else {
 						next = 1;
 						answer = "";
@@ -126,6 +166,7 @@ public class Script00Stage4 : MonoBehaviour {
 						answer += "8";
 						next++;
 						correctAnswer ();
+						rend8.material = red;
 					} else {
 						next = 1;
 						answer = "";
@@ -137,6 +178,7 @@ public class Script00Stage4 : MonoBehaviour {
 						answer += "9";
 						next++;
 						correctAnswer ();
+						rend9.material = red;
 					} else {
 						next = 1;
 						answer = "";
@@ -154,5 +196,14 @@ public class Script00Stage4 : MonoBehaviour {
 
 	void wrongAnswer(){
 		wrong.Play ();
+		rend1.material = white;
+		rend2.material = white;
+		rend3.material = white;
+		rend4.material = white;
+		rend5.material = white;
+		rend6.material = white;
+		rend7.material = white;
+		rend8.material = white;
+		rend9.material = white;
 	}
 }

@@ -55,4 +55,9 @@ public class ItemScriptStage3 : MonoBehaviour {
 			openBig ();
 		}
 	}
+
+	public void solveHidden(){
+		SaveManager.Instance.state.hiddenSolvedS3 = true;
+		SaveManager.Instance.Save ();
+	}
 }

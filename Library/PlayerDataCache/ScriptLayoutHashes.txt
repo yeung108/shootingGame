@@ -252,7 +252,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 fd0f43a3b3758d704d6ddaee31a24a8b Assembly-CSharp.dll:Fungus.EventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.DragRigidbody
 56dfa3a1efcb6e4aa53d8704b628233e Assembly-CSharp.dll:Fungus.ToInt
-7638b1fef741eb7cafa5a7f37f52f843 Assembly-CSharp.dll:.ButtonScriptStage4
+0f4ac0b7ecd89e4cd62d30ca4b990b5b Assembly-CSharp.dll:.ButtonScriptStage4
 50a0fa002cfc67638c87a901e46b763e Assembly-CSharp.dll:TMPro.Examples.TMP_TextSelector_B
 ee80fac5766a5a808eacea4ff0999088 Assembly-CSharp.dll:Fungus.Portrait
 78ebae5ed9b3edeb216da437b99754a4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.Joystick
@@ -449,10 +449,11 @@ b8a18df1051085b5f90566253ca49ebf Assembly-CSharp.dll:Fungus.ReloadScene
 b8f04bdad423045528c67dfa4c3dca0d Assembly-CSharp.dll:TMPro.Examples.VertexShakeA
 6c4575229b336b04f4ced48805920544 Assembly-CSharp.dll:Fungus.ToggleChanged
 998c570f84856acafa7bd7b04e94e163 Assembly-CSharp.dll:.CameraControl
-277b714b05d9271884db778311ade521 Assembly-CSharp.dll:.Script00Stage4
+d619fe74857eda58b12678b27fc9806c Assembly-CSharp.dll:.Script00Stage4
 43294ec8a676944978bb7198ea43935c Assembly-CSharp.dll:DigitalRuby.PyroParticles.FireLightScript
 eb84b8c4df299d0dd27d75faa87db50c Assembly-CSharp.dll:Fungus.Log
 341d2a61529e5b97a6d48f6c70329334 Assembly-CSharp.dll:Fungus.SetMouseCursor
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MorseCode
 869e5abc2271c3b618904edff22e38ef Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.ExplosionFireAndDebris
 ac87c3fd0cc8145764590e9aa7b01c2e Assembly-CSharp.dll:Fungus.LuaBindings
 b6e122c05bcffdd7df830d9e1a631003 Assembly-CSharp.dll:Fungus.SetToggleState

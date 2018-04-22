@@ -17,6 +17,7 @@ public class ItemScript : MonoBehaviour {
 	public void getItem(){
 		GameObject.Find ("gear").SetActive(true);
 		SaveManager.Instance.state.gear = true;
+		SaveManager.Instance.state.hiddenSolvedS1 = true;
 		SaveManager.Instance.Save ();
 	}
 }

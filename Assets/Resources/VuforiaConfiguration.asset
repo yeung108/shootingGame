@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AU/bZPr/////AAAAmQ8RW/6DOEiTqlzUznxad0MZsr56O1O1LaUxVXrokesugmwn0/S4Gpy357fyVzRoIH/I10sut44uRZbXHlooprPzCAAVh7QkAygXi5f+8e55a3aWqI6KR5l7HaQyTD1ook+HbFkkH4RlZBKfj1Si2qGWVGGhhl/8Ua0goz6PjANbAv5dESmHpF4DMuDEU2BsHNHWc/oKeG8qnGCtqt+eoafJ7le5Yh0jkGjpuLHq1nsO/Anirvesilqba3JRZPBj2p/wMlvRASozCgjjw1PR8VtlrQ/OkAL041FBVJh4nPcLn2ps9UYJVdVhWIaxiexNfdLmpYVJXZzYXuLp4Br/Oh/ak45lTGGtT+l2OVTvUXel
+    vuforiaLicenseKey: AdVj/I7/////AAAAmYCOG015NkUDvmp5dJ9RaJkXtD1ose2ti4pxeLrg2Y5E58NTXFIeJlPDVLXorZN5rB+XwfbvUsfjvMqPoatq244NmQw3J0ypyBFjMY3lEXMxfOhM7ORBJJjRcp/je+aRuAbBsvhckU+kOb/SPnQdQ/xwX1sscLP3YAIOnW3ayCkiPTpDzaBCC6pd1Nu7D8/H6y43BxXNxhr6AdQhCy2zFVfCY66JWcrXaVZ3wrDu+y8GKDuId9/upR3SuXvmno1cLINgH1WVtbLnnidNcyjm0uOPFqBiWxApSMS1sLRVpHrsoL0QBrsX5adOIJrNBjJQ0dJO2nYu7FMI5FJkQ4Mf+BBE4lVWUYl/F7HjZ+ubCfRW
     ufoLicenseKey: QVNNMnhUUC8vLy8vQUFBQUtPNm92N0MzcVVwUGxJcTAzNzRIQi93eXVBQnM4eUtQeU45WjRKSytrWXo5eE5KMnUrZDRvYytqS0x4TWFlU2xTYnNUYUI4WTkrS2YyR2wvRGJHWE1rZlZlTjZQRHpQWDZNaFZ5TUZHcWlZcU0yb0NDNm13bGhvZXhDS2VDMDB3bk9VajBBYVNVaU9FYXZva29EQi9RN2ZLcFFWTmdXNzBheHN3VDV1NzZ5Y2FpVVpTcWo0SHl4bUxtaW1Uc002SnlWbFlzS2dEcTNoWFlnVS9wbkNBY0l2czRtZndpOGdacnUzTGVZT1IzOGtaK3VTYURkZWtnSE14bVNVcVE0dWZpRjZCbmNhMFRkLzQzNWNQS1RuVERuMkRieDdoWHV2eGg3NlZKc0dpbDhoejUvV0ZYQ3JPSnNuREE2cHZRMGFrRnJ2TGlpdmxLdTlodnhZTWlESUVkQm5Rd3I0Nms0c0tqTFNKWWZKMEd3N1U=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
@@ -44,9 +44,12 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - ARDrognSlayer
     - VuforiaMars_Images
     - ARGame
     dataSetsToActivate:
+    - ARGame
+    - ARDrognSlayer
     - VuforiaMars_Images
   videoBackground:
     clippingMode: 0

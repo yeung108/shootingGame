@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/badEnd.unity
+- path: Assets/stage1.unity
   isLoaded: 1
   isActive: 1

@@ -36,4 +36,8 @@ public class ItemScriptStage4 : MonoBehaviour {
 		}
 	}
 
+	public void solveHidden(){
+		SaveManager.Instance.state.hiddenSolvedS4 = true;
+		SaveManager.Instance.Save ();
+	}
 }

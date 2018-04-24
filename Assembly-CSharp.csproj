@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\DeployStageOnce.cs" />
      <Compile Include="Assets\DragonControl.cs" />
+     <Compile Include="Assets\DragonControlS5.cs" />
      <Compile Include="Assets\DragonTerrorBringer\Scripts\CameraControl.cs" />
      <Compile Include="Assets\DragonTerrorBringer\Scripts\MaterialChange.cs" />
      <Compile Include="Assets\Fungus\Scripts\Commands\Break.cs" />
@@ -598,6 +599,7 @@
      <Compile Include="Assets\Script\clickScript.cs" />
      <Compile Include="Assets\Script\clickScriptForMusicBox.cs" />
      <Compile Include="Assets\Script\clickScriptMetal.cs" />
+     <Compile Include="Assets\Script\HiddenS5.cs" />
      <Compile Include="Assets\Script\ItemScript.cs" />
      <Compile Include="Assets\Script\ItemScriptStage2.cs" />
      <Compile Include="Assets\Script\ItemScriptStage3.cs" />
@@ -608,14 +610,17 @@
      <Compile Include="Assets\Script\Script00Stage4.cs" />
      <Compile Include="Assets\Script\Script01Stage4.cs" />
      <Compile Include="Assets\Script\Script10Stage4.cs" />
+     <Compile Include="Assets\Script\SlayerScript.cs" />
      <Compile Include="Assets\shooting\bullet_movement.cs" />
      <Compile Include="Assets\shooting\create_bullet.cs" />
      <Compile Include="Assets\shooting\damage.cs" />
      <Compile Include="Assets\shooting\damage_received.cs" />
      <Compile Include="Assets\shooting\machete_movement.cs" />
      <Compile Include="Assets\shooting\menu.cs" />
+     <Compile Include="Assets\shooting\menuS5.cs" />
      <Compile Include="Assets\shooting\SwipeDetector.cs" />
      <Compile Include="Assets\shooting\tapDetection.cs" />
+     <Compile Include="Assets\shooting\tapDetectionS5.cs" />
      <Compile Include="Assets\shooting\weapon_switching.cs" />
      <Compile Include="Assets\Simple Scene Fade Load System\Demo (You don&apos;t have to import this folder)\DemoScript.cs" />
      <Compile Include="Assets\Simple Scene Fade Load System\Scripts\Fader.cs" />
@@ -659,6 +664,7 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\ARDrognSlayer.xml" />
      <None Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\JSON\readme.txt" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
@@ -699,7 +705,6 @@
      <None Include="Assets\Fungus\Thirdparty\FungusLua\Resources\Types\UnityTypes.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
-     <None Include="Assets\StreamingAssets\Vuforia\ARDrognSlayer.xml" />
      <None Include="Assets\Fungus\Integrations\Spine\Readme.txt" />
      <None Include="Assets\Simple Scene Fade Load System\ReadMeFirst.txt" />
      <None Include="Assets\Fungus\Fonts\Amaranth\SIL Open Font License.txt" />

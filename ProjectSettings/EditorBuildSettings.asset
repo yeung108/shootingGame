@@ -24,11 +24,17 @@ EditorBuildSettings:
     path: Assets/stage3.unity
     guid: 374318f46f5a94195ad52b8a655eaa9b
   - enabled: 1
-    path: Assets/badEnd.unity
-    guid: cfc6787aef955446b8858242a6fa9521
-  - enabled: 1
     path: Assets/stage4.unity
     guid: 1a92f4fe2ca90458cb7ea006c9238e4f
   - enabled: 1
     path: Assets/stage5.unity
     guid: 8c6e97379188f435dabc428ba6d73374
+  - enabled: 1
+    path: Assets/badEnd.unity
+    guid: cfc6787aef955446b8858242a6fa9521
+  - enabled: 1
+    path: Assets/trueEnd.unity
+    guid: 0ce72c4f499234877843722fa3c419ee
+  - enabled: 1
+    path: Assets/normalEnd.unity
+    guid: c68ecd8d603884b7289f14d9a7d1df07

@@ -19,8 +19,14 @@ public class ChangeStage : MonoBehaviour {
 	}
 	public void badEnd() {
 		String currentStage = "badEnd";
-		SaveManager.Instance.state.currentStage = -1;
-		SaveManager.Instance.Save ();
+		Initiate.Fade (currentStage, Color.black, 1f);
+	}
+	public void normalEnd(){
+		String currentStage = "normalEnd";
+		Initiate.Fade (currentStage, Color.black, 1f);
+	}
+	public void tureEnd(){
+		String currentStage = "trueEnd";
 		Initiate.Fade (currentStage, Color.black, 1f);
 	}
 }

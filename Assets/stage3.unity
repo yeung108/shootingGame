@@ -3878,9 +3878,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 502837980}
+  - {fileID: 502837949}
   selectedCommands:
-  - {fileID: 502837960}
+  - {fileID: 502837941}
   variables:
   - {fileID: 502837931}
   - {fileID: 502837930}
@@ -3992,15 +3992,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: 'Finally!{wc}
-
-    We arrived Valcano!{wc}
-
-    After searching,{wc}
-
-    It seems that four boxes are the puzzle.{wc}
-
-    Lets solve it!...'
+  storyText: "Finally!{wc}\nWe arrived at the Volcano!{wc}\nIt seems that the four
+    boxes are the puzzle.{wc}\nLet\u2019s solve it!...\n"
   description: 
   character: {fileID: 1231808524}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -4137,11 +4130,11 @@ MonoBehaviour:
   indentLevel: 1
   storyText: 'Do you know binary number?{wc}
 
-    I think the number on the paper{wc}
+    The number on the paper{wc}
 
-    is binary number which represent{wc}
+    is a binary number which represents{wc}
 
-    the solution of the numbered box.'
+    the solution'
   description: 
   character: {fileID: 1231808524}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -4254,9 +4247,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 1
-  storyText: 'See the item list.{wc}
+  storyText: 'Read the item list.{wc}
 
-    I think they may help!'
+    They may help!
+
+'
   description: 
   character: {fileID: 1231808524}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -4466,9 +4461,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 1
-  storyText: 'Congratulation! You have solved a hidden puzzle.{wc}
-
-    Keep finding other hidden puzzles in this game.'
+  storyText: "What?! I don\u2019t even know it can be solved in that way!{wc}\nThere
+    is a message!"
   description: 
   character: {fileID: 1231808524}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -4574,7 +4568,7 @@ MonoBehaviour:
 
     "cave" is the correct answer!{wc}
 
-    Now please decide which place we are going to!'
+    Now please decide what is the next destination!'
   description: 
   character: {fileID: 1231808524}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -4614,11 +4608,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 1
-  storyText: 'I think you got the right track{wc}
+  storyText: 'I think you are on the right track{wc}
 
-    But make sure the answer is capital or not!{wc}
+    But make sure the answer is in capital form!{wc}
 
-    Please try again.'
+    Try again.'
   description: 
   character: {fileID: 1231808524}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -4754,9 +4748,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 1
-  storyText: 'Seems the password is wrong!{wc}
+  storyText: 'Wrong password!{wc}
 
-    Please try again.'
+    Try again.'
   description: 
   character: {fileID: 1231808524}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -4796,7 +4790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 265.1484
+    x: 263.60757
     y: -78.35699
     width: 120
     height: 40
@@ -14576,6 +14570,115 @@ Transform:
   - {fileID: 197587532}
   m_Father: {fileID: 0}
   m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1949537274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1949537276}
+  - component: {fileID: 1949537275}
+  m_Layer: 0
+  m_Name: Backgroud Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1949537275
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1949537274}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c84a613a1a2a94601b8a003fd4695ac8, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!4 &1949537276
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1949537274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1961215857
 GameObject:

@@ -2999,9 +2999,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 502837983}
+  - {fileID: 502837949}
   selectedCommands:
-  - {fileID: 502837961}
+  - {fileID: 502837938}
   variables:
   - {fileID: 502837931}
   - {fileID: 502837930}
@@ -3113,15 +3113,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: 'Finally!{wc}
-
-    We arrived Valcano!{wc}
-
-    After searching,{wc}
-
-    It seems that four boxes are the puzzle.{wc}
-
-    Lets solve it!...'
+  storyText: "Finally!{wc}\nWe arrived at the Cave!{wc}\nIt seems that the four boxes
+    are the puzzle.{wc}\nLet\u2019s solve it!...\n"
   description: 
   character: {fileID: 1231808524}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -3201,7 +3194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 1
-  storyText: By ROT 13, you can get the next target place!
+  storyText: ROT 13 is the clue.
   description: 
   character: {fileID: 1231808524}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -3254,7 +3247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 1
-  storyText: I think the number is the time of 24-hour clock.
+  storyText: I think the number is the time of a 24-hour clock.
   description: 
   character: {fileID: 1231808524}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -3580,9 +3573,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 1
-  storyText: 'Seems dragon king is not there!{wc}
+  storyText: 'It seems that the dragon king is not there!{wc}
 
-    Please try again.'
+    Try again.'
   description: 
   character: {fileID: 1231808524}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -3654,9 +3647,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 1
-  storyText: 'Congratulation! You have solved a hidden puzzle.{wc}
-
-    Keep finding other hidden puzzles in this game.'
+  storyText: "What?! I don\u2019t even know it can be solved in that way!{wc}\nIt
+    seems that you have learnt a new skill."
   description: 
   character: {fileID: 1231808524}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -3850,7 +3842,7 @@ MonoBehaviour:
   indentLevel: 1
   storyText: 'Good job Agent!{wc}
 
-    Your answer is the correct answer!{wc}
+    Your answer is correct!{wc}
 
     A new coat of arms appear!'
   description: 
@@ -3892,11 +3884,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 1
-  storyText: 'I think you got the right track{wc}
+  storyText: 'I think you are on the right track{wc}
 
-    But make sure the answer is capital or not!{wc}
+    But make sure the answer is in capital form!{wc}
 
-    Please try again.'
+    Try again.'
   description: 
   character: {fileID: 1231808524}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -4032,9 +4024,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 1
-  storyText: 'Seems the password is wrong!{wc}
+  storyText: 'Wrong password!{wc}
 
-    Please try again.'
+    Try again.'
   description: 
   character: {fileID: 1231808524}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -4214,7 +4206,7 @@ MonoBehaviour:
   indentLevel: 1
   storyText: 'Agent!{wc}
 
-    You know where we should go{wc}
+    Where should we go{wc}
 
     to find the Dragon King?'
   description: 
@@ -4299,6 +4291,115 @@ MonoBehaviour:
   targetObject: {fileID: 457625799}
   methodName: solveHidden
   delay: 0
+--- !u!1 &514145462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 514145464}
+  - component: {fileID: 514145463}
+  m_Layer: 0
+  m_Name: Backgroud Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &514145463
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 514145462}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c84a613a1a2a94601b8a003fd4695ac8, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!4 &514145464
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 514145462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &534314568
 GameObject:
   m_ObjectHideFlags: 0
@@ -7369,7 +7470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1131626714
 MonoBehaviour:
   m_ObjectHideFlags: 0

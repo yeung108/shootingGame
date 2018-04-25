@@ -1377,7 +1377,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2042272075}
   selectedCommands:
-  - {fileID: 2042272077}
+  - {fileID: 2042272072}
   variables: []
   description: 
   stepPause: 0
@@ -1408,7 +1408,7 @@ MonoBehaviour:
 
     You were fired{wc}
 
-    And you dead with starvation...'
+    And you are dead with starvation...'
   description: 
   character: {fileID: 625288504}
   portrait: {fileID: 21300000, guid: 36652428f3b9f6d41840d56c65aa0d64, type: 3}

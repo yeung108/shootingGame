@@ -17,7 +17,7 @@ public class Answer : MonoBehaviour {
 		print ("Wrong");
 	}
 	void Checked(){
-		if (input.text == "01453" || input.text == "clever") {
+		if (input.text == "01453") {
 			threed.text = "Unlocked";
 			threed.color = Color.green;
 		} else {

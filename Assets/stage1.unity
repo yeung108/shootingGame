@@ -238,9 +238,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 3636135}
+  - {fileID: 3636169}
   selectedCommands:
-  - {fileID: 3636138}
+  - {fileID: 3636156}
   variables:
   - {fileID: 3636145}
   - {fileID: 3636165}
@@ -281,25 +281,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: 'You are the first time to solve the puzzle.{wc}
+  storyText: 'Dr. Samuel has left a puzzle for us here{wc}
 
-    There are six items.{wc}
+    and there are 5 puzzles in total{wc}
 
-    Please make use of them to find out the truth.{wc}
+    We need your talent to solve it{wc}
 
-    If you click the left upper conner,{wc}
+    in order to kill all the dragons!{wc}
 
-    you can use the tools in the lab.{wc}
+    This puzzle consists of six items.{wc}
 
-    For example, ASCII Decoder{wc}
+    If you click the left upper corner{wc}
 
-    which change 8-bit binary numbers{wc}
+    You can use the tools in the lab{wc}
 
-    into characters.{wc}
+    For example, ASCII Decoder
 
-    You need to listen carefully!{wc}
-
-    The environment can always give you some hints.'
+'
   description: 
   character: {fileID: 492215506}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -329,9 +327,7 @@ MonoBehaviour:
 
     Here is your lab!{wc}
 
-    I am your helper!{wc}
-
-    My name is Jonny.'
+    My name is Jonny, your helper!'
   description: 
   character: {fileID: 1586684111}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -523,27 +519,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 1
-  storyText: 'The box is unlocked{wc}
-
-    Good job Agent!{wc}
-
-    The truth becomes closer.{wc}
-
-    There is a paper in the box.{wc}
-
-    "You are clever."{wc}
-
-    "I wish you can solve the puzzle in"{wc}
-
-    "the Carhase Forest."{wc}
-
-    "I am looking forward to meet you."{wc}
-
-    This is all on the paper.{wc}
-
-    I think we should go to Carhase Forest.{wc}
-
-    Lets go!'
+  storyText: "This box is unlocked!{wc}\nGood job Agent!{wc}\nThere is a piece of
+    paper in the box{wc}\n\u201CYou are clever\u201D{wc}\n\u201CI wish you can solve
+    the puzzle in\u201D{wc}\n\u201CThe Carhest Forest\u201D{wc}\n\u201CI am looking
+    forward to meeting you\u201D{wc}\nThat\u2019s all on the paper{wc}\nLet\u2019s
+    go to the Carhest Forest!"
   description: 
   character: {fileID: 492215506}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -583,17 +563,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 1
-  storyText: 'Congratulation! You have solved a hidden puzzle.{wc}
-
-    Keep finding other hidden puzzles in this game.{wc}
-
-    You just found the secret of this box{wc}
-
-    An item is inside the box!{wc}
-
-    It seems like one components of a machine{wc}
-
-    I think it should be useful for other puzzles.'
+  storyText: "What?!{wc}\nI don\u2019t even know it can be unlocked in that way!{wc}\nAn
+    item is inside the box!{wc}\nIt seems like a component of a machine{wc}\nI think
+    it should be useful for other puzzles"
   description: 
   character: {fileID: 492215506}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -710,7 +682,7 @@ MonoBehaviour:
   indentLevel: 1
   storyText: 'Different colors with different names{wc}
 
-    For example, blue is starting with letter ''B''...'
+    For example, blue starts with letter ''B''...'
   description: 
   character: {fileID: 492215506}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -765,7 +737,7 @@ MonoBehaviour:
   indentLevel: 1
   storyText: 'Different objects with different shapes!{wc}
 
-    The number of vertices tells us the answer...'
+    The number of vertices is the clue...'
   description: 
   character: {fileID: 492215506}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -942,7 +914,7 @@ MonoBehaviour:
   indentLevel: 1
   storyText: 'Different objects with different colors!{wc}
 
-    Maybe the color leads us the answer.'
+    Maybe the color is the clue.'
   description: 
   character: {fileID: 492215506}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -982,7 +954,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 436.2743
+    x: 433.8112
     y: 77.29899
     width: 120
     height: 40
@@ -5218,6 +5190,115 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 864675347}
+--- !u!1 &889934915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 889934917}
+  - component: {fileID: 889934916}
+  m_Layer: 0
+  m_Name: Backgroud Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &889934916
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 889934915}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c84a613a1a2a94601b8a003fd4695ac8, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!4 &889934917
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 889934915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &905823496
 GameObject:
   m_ObjectHideFlags: 0

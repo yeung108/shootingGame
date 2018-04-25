@@ -592,6 +592,7 @@
      <Compile Include="Assets\SaveManager.cs" />
      <Compile Include="Assets\SaveState.cs" />
      <Compile Include="Assets\Script\Answer.cs" />
+     <Compile Include="Assets\Script\AnswerCheckerForHiddenPuzzleImageTaregt.cs" />
      <Compile Include="Assets\Script\AnswerStage3.cs" />
      <Compile Include="Assets\Script\ASCII.cs" />
      <Compile Include="Assets\Script\ButtonScriptStage4.cs" />

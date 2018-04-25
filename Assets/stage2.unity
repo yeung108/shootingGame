@@ -2077,7 +2077,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: twoMaterial
+  m_Name: threeMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -2090,7 +2090,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0a0de5860f6641b9bd9956b4f62fc304, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7af50ecd163d495db7d1a5b6366c4b14, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3634,7 +3634,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7f80f5541e8d46aea8d15cb3ad7b8873, type: 3}
+        m_Texture: {fileID: 2800000, guid: be38f21d0c624834971f852d3a96a8e1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -4516,6 +4516,115 @@ Transform:
   - {fileID: 1720855786}
   m_Father: {fileID: 0}
   m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &885803915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 885803917}
+  - component: {fileID: 885803916}
+  m_Layer: 0
+  m_Name: Backgroud Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &885803916
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 885803915}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c84a613a1a2a94601b8a003fd4695ac8, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!4 &885803917
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 885803915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &896317961
 Prefab:
@@ -5667,7 +5776,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: two
+  mTrackableName: three
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/ARDrognSlayer.xml
@@ -6086,9 +6195,9 @@ GameObject:
   - component: {fileID: 1223473312}
   - component: {fileID: 1223473311}
   - component: {fileID: 1223473310}
-  - component: {fileID: 1223473309}
   - component: {fileID: 1223473317}
   - component: {fileID: 1223473318}
+  - component: {fileID: 1223473319}
   m_Layer: 0
   m_Name: 'Flowchart '
   m_TagString: Untagged
@@ -6145,7 +6254,7 @@ MonoBehaviour:
 
     "lava" is the correct answer!{wc}
 
-    Now please decide which place we are going to!'
+    Now please decide what is the next destination!'
   description: 
   character: {fileID: 1497924918}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -6185,11 +6294,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 1
-  storyText: 'I think you got the right track{wc}
+  storyText: 'I think you are on the right track{wc}
 
-    But make sure the answer is capital or not!{wc}
+    But make sure the answer is in capital form or not!{wc}
 
-    Please try again.'
+    Try again.'
   description: 
   character: {fileID: 1497924918}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -6339,9 +6448,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 1
-  storyText: 'Seems the password is wrong!{wc}
+  storyText: 'Wrong password!{wc}
 
-    Please try again.'
+    Try again.
+
+'
   description: 
   character: {fileID: 1497924918}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -6408,10 +6519,10 @@ MonoBehaviour:
   - {fileID: 1223473314}
   - {fileID: 1223473313}
   - {fileID: 1223473317}
-  - {fileID: 1223473309}
   - {fileID: 1223473312}
   - {fileID: 1223473311}
   - {fileID: 1223473310}
+  - {fileID: 1223473319}
   - {fileID: 1223473318}
   - {fileID: 1223473260}
   - {fileID: 1223473253}
@@ -6464,17 +6575,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: 'We arrived Carhase Forest!{wc}
+  storyText: 'We arrived at the Carhest Forest!{wc}
 
-    After searching around,{wc}
+    There are two items only{wc}
 
-    I found there are two items only{wc}
+    One is a broken radio{wc}
 
-    A radio player which is not working.{wc}
+    But it can emit some special sounds{wc}
 
-    One is a metal plane.{wc}
+    The other one is a metal plane{wc}
 
-    Lets observe them.'
+    Agent, what are the meanings of these two things?
+
+'
   description: 
   character: {fileID: 1497924918}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -6553,10 +6666,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1223473286}
-  selectedCommands:
-  - {fileID: 1223473289}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1223473262}
   - {fileID: 1223473302}
@@ -6741,7 +6852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 58.674934
+    x: 57.22143
     y: 223.6481
     width: 120
     height: 40
@@ -7310,37 +7421,9 @@ MonoBehaviour:
   scope: 0
   key: empty
   value: 
---- !u!114 &1223473309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1223473252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 68
-  indentLevel: 1
-  storyText: 'Congratulation! You have solved a hidden puzzle.{wc}
-
-    Keep finding the hidden puzzles in this game!'
-  description: 
-  character: {fileID: 1497924918}
-  portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1223473310
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1223473252}
@@ -7354,7 +7437,7 @@ MonoBehaviour:
   sayDialog: {fileID: 369734003}
 --- !u!114 &1223473311
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1223473252}
@@ -7373,7 +7456,7 @@ MonoBehaviour:
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &1223473312
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1223473252}
@@ -7400,7 +7483,7 @@ MonoBehaviour:
     stringVal: HUMAN
 --- !u!114 &1223473313
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1223473252}
@@ -7411,9 +7494,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 64
   indentLevel: 1
-  storyText: 'Congratulation! You have solved a hidden puzzle.{wc}
+  storyText: 'Two years ago, a human killed a dragon{wc}
 
-    Keep finding the hidden puzzles in this game!'
+    But before that, dragons did not attack anybody{wc}
+
+    Some dragons even lived with humans{wc}
+
+    ...{wc}
+
+    ...
+
+'
   description: 
   character: {fileID: 1497924918}
   portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
@@ -7428,7 +7519,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1223473314
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1223473252}
@@ -7442,7 +7533,7 @@ MonoBehaviour:
   sayDialog: {fileID: 369734003}
 --- !u!114 &1223473315
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1223473252}
@@ -7461,7 +7552,7 @@ MonoBehaviour:
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &1223473316
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1223473252}
@@ -7488,7 +7579,7 @@ MonoBehaviour:
     stringVal: human
 --- !u!114 &1223473317
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1223473252}
@@ -7504,7 +7595,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &1223473318
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1223473252}
@@ -7518,6 +7609,42 @@ MonoBehaviour:
   targetObject: {fileID: 16510746}
   methodName: solveHidden
   delay: 0
+--- !u!114 &1223473319
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1223473252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 71
+  indentLevel: 1
+  storyText: 'Two years ago, a human killed a dragon{wc}
+
+    But before that, dragons did not attack anybody{wc}
+
+    Some dragons even lived with humans{wc}
+
+    ...{wc}
+
+    ...
+
+'
+  description: 
+  character: {fileID: 1497924918}
+  portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1001 &1230349826
 Prefab:
   m_ObjectHideFlags: 0

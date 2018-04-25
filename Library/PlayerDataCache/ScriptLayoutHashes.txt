@@ -444,6 +444,7 @@ d42c0964705688f14135e5d833a587b1 Assembly-CSharp.dll:Fungus.OpenURL
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Fungus.EventDispatcher
 922cabf5683c9363dd4d484425aa2e5e Assembly-CSharp.dll:.ItemScript
 5093524ccdcfa505089337cf23998886 Assembly-CSharp.dll:Fungus.Parallax
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SlayerScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.FireLight
 c1e5e4e5ad9eb07bed8851b99038c6fa Assembly-CSharp.dll:Fungus.KeyPressed
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
@@ -689,4 +690,4 @@ d609a5008e2be1b3e59e436b51a12459 Assembly-CSharp.dll:.ASCII
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 fd160bb264b468cfb1957ebeb7c17190 Assembly-CSharp.dll:Fungus.MoveLean
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SlayerScript
+af9b4ffd9e4e10e0edc01c95db2df7bf Assembly-CSharp.dll:.AnswerCheckerForHiddenPuzzleImageTaregt

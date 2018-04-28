@@ -60,7 +60,7 @@ public class GameMenu : MonoBehaviour {
 		SaveManager.Instance.Load ();
 		if (SaveManager.Instance.state.gold >= knifePrice) {
 			SaveManager.Instance.state.gold -= knifePrice;
-			SaveManager.Instance.state.knife += 100;
+			SaveManager.Instance.state.knife += 50;
 			SaveManager.Instance.Save ();
 		}
 		goldTextObject.GetComponent<TextMeshProUGUI> ().text = "Gold: " + SaveManager.Instance.state.gold;

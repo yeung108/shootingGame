@@ -17,8 +17,8 @@ public class DragonControlS5 : MonoBehaviour {
 	public GameObject flamethrower;
 	private Vector3 targetPosition;
 	private float speed = .01f;
-	private float dragonLife = 10f;
-	private float maxDragonLife = 10f;
+	private float dragonLife = 100f;
+	private float maxDragonLife = 100f;
 	private float attackRange = 6.0f;
 	private int bulletPower = 2;
 	private int knifePower = 1;

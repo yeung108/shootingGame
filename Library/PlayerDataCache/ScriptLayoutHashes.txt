@@ -302,6 +302,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 ea1c52d4393344169a79b180c8b85521 Assembly-CSharp.dll:Fungus.ButtonClicked
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.bullet_movement
 128ce770b8d72da7c05552704fff4a4e Assembly-CSharp.dll:Fungus.Map
+af9b4ffd9e4e10e0edc01c95db2df7bf Assembly-CSharp.dll:.AnswerCheckerForHiddenPuzzleImageTaregt
 3d4501935c82b1ad586cc7811d1f8ed2 Assembly-CSharp.dll:Fungus.Particle
 149e538468c9a609cf26b23682c996c7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.PlatformSpecificContent
 367dcf95d0068f207b7c2226d5748689 Assembly-CSharp.dll:Fungus.AudioSourceVariable
@@ -690,4 +691,3 @@ d609a5008e2be1b3e59e436b51a12459 Assembly-CSharp.dll:.ASCII
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 fd160bb264b468cfb1957ebeb7c17190 Assembly-CSharp.dll:Fungus.MoveLean
-af9b4ffd9e4e10e0edc01c95db2df7bf Assembly-CSharp.dll:.AnswerCheckerForHiddenPuzzleImageTaregt

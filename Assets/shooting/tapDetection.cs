@@ -16,6 +16,7 @@ public class tapDetection : MonoBehaviour {
 	public float range = 10f;
 	public float knifeRange = 10f;
 	public int goldAwarded = 1000;
+	bool notchecked = true;
 
 	// Use this for initialization
 	void Start () {
@@ -27,7 +28,9 @@ public class tapDetection : MonoBehaviour {
 		goldTextObject.GetComponent<TextMeshProUGUI> ().text = "$" + SaveManager.Instance.state.gold;
 		TapSelected ();
 		checkIfPlayerDie ();
-		checkIfAllDragonDie ();
+		if (notchecked) {
+			checkIfAllDragonDie ();
+		}
 	}
 
 	void TapSelected() {
@@ -70,7 +73,10 @@ public class tapDetection : MonoBehaviour {
 	void checkIfAllDragonDie(){
 		var noOfDragonAlive = GameObject.FindGameObjectsWithTag ("dragon");
 		if (noOfDragonAlive.Length == 0) {
-			goToNextStage ();
+			if (notchecked) {
+				notchecked = false;
+				goToNextStage ();
+			}
 		} else {
 			hittedTextObject.GetComponent<TextMeshProUGUI> ().text = "Enemies: " + noOfDragonAlive.Length;
 		}

@@ -770,6 +770,18 @@ Prefab:
       propertyPath: m_Name
       value: DragonKing
       objectReference: {fileID: 0}
+    - target: {fileID: 4883060165502148, guid: f19ff23d28d0e4a2bb4230c05fd927fd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883060165502148, guid: f19ff23d28d0e4a2bb4230c05fd927fd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883060165502148, guid: f19ff23d28d0e4a2bb4230c05fd927fd, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114515139119771662, guid: f19ff23d28d0e4a2bb4230c05fd927fd, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: f19ff23d28d0e4a2bb4230c05fd927fd, type: 2}
@@ -2659,6 +2671,7 @@ GameObject:
   - component: {fileID: 644267267}
   - component: {fileID: 644267268}
   - component: {fileID: 644267269}
+  - component: {fileID: 644267265}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2666,6 +2679,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &644267265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 644267264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee194ba783a3d4b369b034ce959168f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &644267266
 Transform:
   m_ObjectHideFlags: 0
@@ -3159,7 +3183,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 644267265}
         m_MethodName: toMenu
         m_Mode: 1
         m_Arguments:
@@ -6813,7 +6837,7 @@ MonoBehaviour:
 
     I just want to tell you{wc}
 
-    Dr. Sammul and I are friend.{wc}
+    Dr. Samuel and I are friend.{wc}
 
     We know that the government wants to kill all the dragons.{wc}
 

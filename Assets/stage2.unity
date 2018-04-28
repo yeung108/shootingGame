@@ -129,6 +129,7 @@ GameObject:
   - component: {fileID: 16510753}
   - component: {fileID: 16510754}
   - component: {fileID: 16510755}
+  - component: {fileID: 16510756}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -244,6 +245,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c3d19a89cd064e9baf18c175c30a02a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &16510756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 16510746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad40291eadca49abb8bd7aef4543b28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputF: {fileID: 1922915005}
+  output: {fileID: 2141951106}
 --- !u!1 &20956024
 GameObject:
   m_ObjectHideFlags: 0
@@ -2096,6 +2110,100 @@ Material:
     m_Floats: []
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+--- !u!1 &291140099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 291140103}
+  - component: {fileID: 291140102}
+  - component: {fileID: 291140101}
+  - component: {fileID: 291140100}
+  m_Layer: 5
+  m_Name: Hidden(Canvas)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &291140100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 291140099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &291140101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 291140099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &291140102
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 291140099}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &291140103
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 291140099}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 2141951105}
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &296562539
 Prefab:
   m_ObjectHideFlags: 0
@@ -5944,8 +6052,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1193047304}
   m_LocalRotation: {x: -0.32143947, y: -0, z: -0, w: 0.94693017}
-  m_LocalPosition: {x: 0, y: 0.15, z: 0}
-  m_LocalScale: {x: 0.49864247, y: 0.000831071, z: 0.3739819}
+  m_LocalPosition: {x: 0, y: 0.354, z: -0.156}
+  m_LocalScale: {x: 1, y: 0.000831071, z: 1}
   m_Children:
   - {fileID: 2028060678}
   - {fileID: 1765319337}
@@ -6146,9 +6254,6 @@ GameObject:
   - component: {fileID: 1223473262}
   - component: {fileID: 1223473261}
   - component: {fileID: 1223473260}
-  - component: {fileID: 1223473259}
-  - component: {fileID: 1223473258}
-  - component: {fileID: 1223473257}
   - component: {fileID: 1223473256}
   - component: {fileID: 1223473255}
   - component: {fileID: 1223473269}
@@ -6184,7 +6289,6 @@ GameObject:
   - component: {fileID: 1223473289}
   - component: {fileID: 1223473290}
   - component: {fileID: 1223473288}
-  - component: {fileID: 1223473287}
   - component: {fileID: 1223473253}
   - component: {fileID: 1223473280}
   - component: {fileID: 1223473308}
@@ -6192,12 +6296,7 @@ GameObject:
   - component: {fileID: 1223473315}
   - component: {fileID: 1223473314}
   - component: {fileID: 1223473313}
-  - component: {fileID: 1223473312}
-  - component: {fileID: 1223473311}
-  - component: {fileID: 1223473310}
   - component: {fileID: 1223473317}
-  - component: {fileID: 1223473318}
-  - component: {fileID: 1223473319}
   m_Layer: 0
   m_Name: 'Flowchart '
   m_TagString: Untagged
@@ -6281,77 +6380,6 @@ MonoBehaviour:
   itemId: 13
   indentLevel: 1
   sayDialog: {fileID: 369734003}
---- !u!114 &1223473257
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1223473252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 12
-  indentLevel: 1
-  storyText: 'I think you are on the right track{wc}
-
-    But make sure the answer is in capital form or not!{wc}
-
-    Try again.'
-  description: 
-  character: {fileID: 1497924918}
-  portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1223473258
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1223473252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 11
-  indentLevel: 1
-  sayDialog: {fileID: 369734003}
---- !u!114 &1223473259
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1223473252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 10
-  indentLevel: 0
-  compareOperator: 0
-  variable: {fileID: 1223473262}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: LAVA
 --- !u!114 &1223473260
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6378,7 +6406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  targetTextObject: {fileID: 1711595085}
+  targetTextObject: {fileID: 2141951104}
   stringVariable: {fileID: 1223473262}
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &1223473262
@@ -6493,7 +6521,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 266.68924
-    y: -73.73447
+    y: -72.28096
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6510,20 +6538,11 @@ MonoBehaviour:
   - {fileID: 1223473255}
   - {fileID: 1223473269}
   - {fileID: 1223473280}
-  - {fileID: 1223473259}
-  - {fileID: 1223473287}
-  - {fileID: 1223473258}
-  - {fileID: 1223473257}
   - {fileID: 1223473316}
   - {fileID: 1223473315}
   - {fileID: 1223473314}
   - {fileID: 1223473313}
   - {fileID: 1223473317}
-  - {fileID: 1223473312}
-  - {fileID: 1223473311}
-  - {fileID: 1223473310}
-  - {fileID: 1223473319}
-  - {fileID: 1223473318}
   - {fileID: 1223473260}
   - {fileID: 1223473253}
   - {fileID: 1223473266}
@@ -6627,8 +6646,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 85.75821
-    y: -77.61646
+    x: 84.3047
+    y: -79.06997
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6666,8 +6685,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1223473267}
+  selectedCommands:
+  - {fileID: 1223473261}
   variables:
   - {fileID: 1223473262}
   - {fileID: 1223473302}
@@ -6751,7 +6772,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 454.72803
-    y: 205.15791
+    y: 206.61142
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6948,25 +6969,6 @@ MonoBehaviour:
   - {fileID: 1223473285}
   - {fileID: 1223473284}
   - {fileID: 1223473289}
---- !u!114 &1223473287
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1223473252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 58
-  indentLevel: 1
-  targetTextObject: {fileID: 1711595085}
-  text:
-    stringRef: {fileID: 1223473308}
-    stringVal: 
-  description: 
-  _textObjectObsolete: {fileID: 0}
 --- !u!114 &1223473288
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7421,66 +7423,6 @@ MonoBehaviour:
   scope: 0
   key: empty
   value: 
---- !u!114 &1223473310
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1223473252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 67
-  indentLevel: 1
-  sayDialog: {fileID: 369734003}
---- !u!114 &1223473311
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1223473252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 66
-  indentLevel: 1
-  targetTextObject: {fileID: 1711595085}
-  text:
-    stringRef: {fileID: 1223473308}
-    stringVal: 
-  description: 
-  _textObjectObsolete: {fileID: 0}
---- !u!114 &1223473312
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1223473252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 65
-  indentLevel: 0
-  compareOperator: 0
-  variable: {fileID: 1223473262}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: HUMAN
 --- !u!114 &1223473313
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7494,11 +7436,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 64
   indentLevel: 1
-  storyText: 'Two years ago, a human killed a dragon{wc}
+  storyText: 'What?! I don''t even know it can be solved in that way!{wc}
 
-    But before that, dragons did not attack anybody{wc}
+    There is a  message.{wc}
 
-    Some dragons even lived with humans{wc}
+    "The war between dragons and humans started two years ago"{wc}
+
+    "When a human killed a dragon"{wc}
 
     ...{wc}
 
@@ -7593,58 +7537,6 @@ MonoBehaviour:
   targetObject: {fileID: 16510746}
   methodName: solveHidden
   delay: 0
---- !u!114 &1223473318
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1223473252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 70
-  indentLevel: 1
-  targetObject: {fileID: 16510746}
-  methodName: solveHidden
-  delay: 0
---- !u!114 &1223473319
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1223473252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 71
-  indentLevel: 1
-  storyText: 'Two years ago, a human killed a dragon{wc}
-
-    But before that, dragons did not attack anybody{wc}
-
-    Some dragons even lived with humans{wc}
-
-    ...{wc}
-
-    ...
-
-'
-  description: 
-  character: {fileID: 1497924918}
-  portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!1001 &1230349826
 Prefab:
   m_ObjectHideFlags: 0
@@ -10324,7 +10216,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1596314283}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 16510756}
+        m_MethodName: submitAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1596314283
@@ -10925,7 +10828,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.01
+      value: 0.033
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10957,15 +10860,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_Name
@@ -13123,3 +13026,77 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2139987177}
+--- !u!1 &2141951104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2141951105}
+  - component: {fileID: 2141951107}
+  - component: {fileID: 2141951106}
+  m_Layer: 5
+  m_Name: toUpperCase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2141951105
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2141951104}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 291140103}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2141951106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2141951104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &2141951107
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2141951104}

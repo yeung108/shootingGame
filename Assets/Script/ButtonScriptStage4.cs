@@ -104,7 +104,7 @@ public class ButtonScriptStage4 : MonoBehaviour {
 					Debug.Log ("b4 clicked");
 					if (b3Red) {
 						b3Red = !b3Red;
-						rend4.material = black;
+						rend3.material = black;
 					} else {
 						b3Red = !b3Red;
 						rend3.material = red;

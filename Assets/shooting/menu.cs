@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class menu : MonoBehaviour {
-
+	public GameObject pauseMenu;
 	// Use this for initialization
 	void Start () {
 		
@@ -21,14 +21,23 @@ public class menu : MonoBehaviour {
 				if (raycastHit.collider.name == "menu")
 				{
 					Debug.Log ("menu clicked");
-					toMenu ();
+					PauseGame();
 				} 
 			}
 		}
 	}
 
-	void toMenu() {
-		Initiate.Fade ("menu", Color.black, 1f);
-		//SceneManager.LoadScene (0);
+	public void PauseGame()
+	{
+		Time.timeScale = 0;
+		pauseMenu.SetActive(true);
+		//Disable scripts that still work while timescale is set to 0
+	}
+
+	public void ContinueGame()
+	{
+		Time.timeScale = 1;
+		pauseMenu.SetActive(false);
+		//enable the scripts again
 	}
 }

@@ -8,7 +8,10 @@ public class AnswerCheckerForHiddenPuzzleImageTaregt : MonoBehaviour {
 	public InputField inputF;
 
 	public void checkAnswer () {
-		if (inputF.text == "THANKS") {
+		string tempString = inputF.text.ToLower();
+		tempString = tempString.Replace (" ", string.Empty);
+		inputF.text = "";
+		if (tempString == "thanks") {
 			thankYouText.SetActive (true);
 		}
 	}

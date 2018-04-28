@@ -42,7 +42,7 @@ df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 b20f7948f03b6dc491cc69efe57bc8c1 Assembly-CSharp.dll:Fungus.CharacterControllerCollide
 3d4501935c82b1ad586cc7811d1f8ed2 Assembly-CSharp.dll:Fungus.Collision2D
 d4bcb0964e9fd65eead7c3cbc27a70e2 Assembly-CSharp.dll:Fungus.Vector3Fields
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.menu
+24992e548e095fd50f57d9de3106570d Assembly-CSharp.dll:.menu
 507638d4a41cb9131848b0d6b4fcb60b Assembly-CSharp.dll:Fungus.PunchScale
 7ba1e84ad3d2d8813486668e75f842ce Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.ParticleSystemMultiplier
 67a085132ec2c865fdc9fc0613db613a Assembly-CSharp.dll:Fungus.LoadScene
@@ -59,6 +59,7 @@ e60e821c4ad60cfe53a2f2267c8e2649 Assembly-CSharp.dll:Fungus.SetCollider
 d5ca41dbd1fe75a7719857047b7ae969 Assembly-CSharp.dll:Fungus.ScaleFrom
 0ee364907e9a3f67676e9dfd6a632d93 Assembly-CSharp.dll:.Script10Stage4
 797b66f3a9857b3e9846213e26ccb1b0 Assembly-CSharp.dll:Fungus.InvokeMethod
+f3fc1d7535773cc9e4711f561eabc107 Assembly-CSharp.dll:.AnsToLowCase
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker
 f592bf103da57c274ee57471fbff398e Assembly-CSharp.dll:.DragonControlS5
 5e6d45a991f8b0a32a316d0a266ae47b Assembly-CSharp.dll:Fungus.Sqrt
@@ -380,6 +381,7 @@ e763036081c708b34f78f5a56f72c23d TextMeshPro-2017.3-1.0.56-Runtime.dll:TMPro.TMP
 136f28bae18bcd1072d830ee3456f3ab TextMeshPro-2017.3-1.0.56-Runtime.dll:TMPro.TMP_SubMesh
 5833a86cc374f497ae8d9fb9d8c3e5f4 TextMeshPro-2017.3-1.0.56-Runtime.dll:TMPro.TMP_SubMeshUI
 d672cee35261f9935d5ce974c746730f TextMeshPro-2017.3-1.0.56-Runtime.dll:TMPro.TMP_Text
+f3fc1d7535773cc9e4711f561eabc107 Assembly-CSharp.dll:.AnsToLowCase2
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.TMP_TextSelector_A
 4f3a4eabf58980aa7e9cc8df555a4b24 Assembly-CSharp.dll:Fungus.LuaUtils
 b900ead596b2fb1093b31cb63a678767 Assembly-CSharp.dll:TMPro.Examples.TextMeshProFloatingText
@@ -691,3 +693,4 @@ d609a5008e2be1b3e59e436b51a12459 Assembly-CSharp.dll:.ASCII
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 fd160bb264b468cfb1957ebeb7c17190 Assembly-CSharp.dll:Fungus.MoveLean
+ce38d7d9aaee3af07213664f5b3a1a0c Assembly-CSharp.dll:.GoldScript
